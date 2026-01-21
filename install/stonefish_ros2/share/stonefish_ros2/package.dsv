@@ -1,0 +1,5 @@
+source;share/stonefish_ros2/local_setup.bash
+source;share/stonefish_ros2/local_setup.dsv
+source;share/stonefish_ros2/local_setup.ps1
+source;share/stonefish_ros2/local_setup.sh
+source;share/stonefish_ros2/local_setup.zsh

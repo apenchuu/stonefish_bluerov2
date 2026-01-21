@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "stonefish_ros2__py",
+		"source" : "/home/apenchu/hobi/ros2_ws/src/build/stonefish_ros2/stonefish_ros2__py"
+	}
+}

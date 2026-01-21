@@ -1,0 +1,1132 @@
+[0.000000] (-) TimerEvent: {}
+[0.000217] (stonefish_ros2) JobQueued: {'identifier': 'stonefish_ros2', 'dependencies': OrderedDict()}
+[0.000257] (stonefish_ros2) JobStarted: {'identifier': 'stonefish_ros2'}
+[0.056742] (stonefish_ros2) JobProgress: {'identifier': 'stonefish_ros2', 'progress': 'cmake'}
+[0.059197] (stonefish_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/apenchu/hobi/ros2_ws/src/stonefish_ros2', '-DCMAKE_INSTALL_PREFIX=/home/apenchu/hobi/ros2_ws/src/install/stonefish_ros2'], 'cwd': '/home/apenchu/hobi/ros2_ws/src/build/stonefish_ros2', 'env': OrderedDict([('LESS_TERMCAP_se', '\x1b[0m'), ('HISTFILESIZE', '10000'), ('HISTTIMEFORMAT', '%F %T'), ('WARP_HONOR_PS1', '1'), ('USER', 'apenchu'), ('LESS_TERMCAP_ue', '\x1b[0m'), ('LC_TIME', 'id_ID.UTF-8'), ('NODE_FUNCTION_ALLOW_EXTERNAL', 'child_process'), ('STARSHIP_SHELL', 'bash'), ('XDG_SESSION_TYPE', 'wayland'), ('XDG_CACHE_HOME', '/home/apenchu/.cache'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/apenchu'), ('OLDPWD', '/home/apenchu/hobi'), ('TERM_PROGRAM_VERSION', 'v0.2025.12.17.17.17.stable_02'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/apenchu/.config/nvm/versions/node/v24.12.0/bin'), ('NVM_INC', '/home/apenchu/.config/nvm/versions/node/v24.12.0/include/node'), ('WARP_USE_SSH_WRAPPER', '1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/apenchu/.config/autostart/ulauncher.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LESS_TERMCAP_so', '\x1b[01;44;33m'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '999'), ('SYSTEMD_EXEC_PID', '1477'), ('IM_CONFIG_CHECK_ENV', '1'), ('LINUXTOOLBOXDIR', '/home/apenchu/linuxtoolbox'), ('VISUAL', 'nvim'), ('XDG_STATE_HOME', '/home/apenchu/.local/state'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1783'), ('NVM_DIR', '/home/apenchu/.config/nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'apenchu'), ('LESS_TERMCAP_us', '\x1b[01;32m'), ('DESKTOP_AUTOSTART_ID', '104e80f2c6b0542491176889888597246300000014770017'), ('JOURNAL_STREAM', '8:9064'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'apenchu'), ('SSH_SOCKET_DIR', '~/.ssh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WARP_IS_LOCAL_SHELL_SESSION', '1'), ('HISTCONTROL', 'erasedups:ignoredups:ignorespace'), ('PATH', '/home/apenchu/.local/bin:/home/apenchu/.local/bin:/home/apenchu/.local/bin:/home/apenchu/.local/bin:/opt/ros/humble/bin:/home/apenchu/.config/nvm/versions/node/v24.12.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/apenchu/.local/bin:/home/apenchu/.cargo/bin:/var/lib/flatpak/exports/bin:/.local/share/flatpak/exports/bin:/home/apenchu/.local/bin:/home/apenchu/.cargo/bin:/var/lib/flatpak/exports/bin:/.local/share/flatpak/exports/bin'), ('SESSION_MANAGER', 'local/apenchu-ThinkPad-T480:@/tmp/.ICE-unix/1477,unix/apenchu-ThinkPad-T480:/tmp/.ICE-unix/1477'), ('INVOCATION_ID', '0968890472264319af5ad772543406de'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('HISTSIZE', '500'), ('WARP_PATH_APPEND', ''), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XDG_DATA_HOME', '/home/apenchu/.local/share'), ('XDG_CONFIG_HOME', '/home/apenchu/.config'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZYQ1I3'), ('LS_COLORS', 'no=00:fi=00:di=00;34:ln=01;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.gz=01;31:*.bz2=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.avi=01;35:*.fli=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.ogg=01;35:*.mp3=01;35:*.wav=01;35:*.xml=00;31:'), ('TERM_PROGRAM', 'WarpTerminal'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESS_TERMCAP_mb', '\x1b[01;31m'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('LESS_TERMCAP_md', '\x1b[01;31m'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/apenchu/hobi/ros2_ws/src/build/stonefish_ros2'), ('CLICOLOR', '1'), ('LESS_TERMCAP_me', '\x1b[0m'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/apenchu/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('STARSHIP_SESSION_KEY', '1970016502162238'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('EDITOR', 'nvim'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099305] (-) TimerEvent: {}
+[0.150455] (stonefish_ros2) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.1.0\n'}
+[0.199413] (-) TimerEvent: {}
+[0.219768] (stonefish_ros2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.1.0\n'}
+[0.231801] (stonefish_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299581] (-) TimerEvent: {}
+[0.313267] (stonefish_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.322010] (stonefish_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.322450] (stonefish_ros2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.323010] (stonefish_ros2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.327614] (stonefish_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399715] (-) TimerEvent: {}
+[0.421088] (stonefish_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.430733] (stonefish_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.431025] (stonefish_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.431470] (stonefish_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.437990] (stonefish_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.499843] (-) TimerEvent: {}
+[0.600109] (-) TimerEvent: {}
+[0.619558] (stonefish_ros2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.700204] (-) TimerEvent: {}
+[0.730536] (stonefish_ros2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.788368] (stonefish_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.794495] (stonefish_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.800284] (-) TimerEvent: {}
+[0.805069] (stonefish_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.822675] (stonefish_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.847236] (stonefish_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.899704] (stonefish_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.900392] (-) TimerEvent: {}
+[0.903142] (stonefish_ros2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.000529] (-) TimerEvent: {}
+[1.010674] (stonefish_ros2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.047998] (stonefish_ros2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.098670] (stonefish_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.100643] (-) TimerEvent: {}
+[1.110180] (stonefish_ros2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.198171] (stonefish_ros2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.198849] (stonefish_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.200754] (-) TimerEvent: {}
+[1.285397] (stonefish_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.286698] (stonefish_ros2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.300852] (-) TimerEvent: {}
+[1.368491] (stonefish_ros2) StdoutLine: {'line': b'-- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[1.384162] (stonefish_ros2) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.401000] (-) TimerEvent: {}
+[1.403801] (stonefish_ros2) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.428929] (stonefish_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.452043] (stonefish_ros2) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[1.477225] (stonefish_ros2) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.488414] (stonefish_ros2) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[1.501142] (-) TimerEvent: {}
+[1.539285] (stonefish_ros2) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[1.553742] (stonefish_ros2) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[1.591111] (stonefish_ros2) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[1.591277] (stonefish_ros2) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.601184] (-) TimerEvent: {}
+[1.639695] (stonefish_ros2) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[1.654411] (stonefish_ros2) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[1.699341] (stonefish_ros2) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[1.699602] (stonefish_ros2) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[1.701256] (-) TimerEvent: {}
+[1.801491] (-) TimerEvent: {}
+[1.901781] (-) TimerEvent: {}
+[2.002089] (-) TimerEvent: {}
+[2.102335] (-) TimerEvent: {}
+[2.202671] (-) TimerEvent: {}
+[2.302947] (-) TimerEvent: {}
+[2.403201] (-) TimerEvent: {}
+[2.503500] (-) TimerEvent: {}
+[2.603788] (-) TimerEvent: {}
+[2.704081] (-) TimerEvent: {}
+[2.804318] (-) TimerEvent: {}
+[2.873928] (stonefish_ros2) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[2.889362] (stonefish_ros2) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[2.904438] (-) TimerEvent: {}
+[2.929897] (stonefish_ros2) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[2.931527] (stonefish_ros2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[3.004030] (stonefish_ros2) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[3.004495] (-) TimerEvent: {}
+[3.104784] (-) TimerEvent: {}
+[3.174252] (stonefish_ros2) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[3.181919] (stonefish_ros2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[3.189149] (stonefish_ros2) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[3.204913] (-) TimerEvent: {}
+[3.305132] (-) TimerEvent: {}
+[3.405529] (-) TimerEvent: {}
+[3.417008] (stonefish_ros2) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[3.505656] (-) TimerEvent: {}
+[3.605962] (-) TimerEvent: {}
+[3.608447] (stonefish_ros2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[3.706107] (-) TimerEvent: {}
+[3.768707] (stonefish_ros2) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[3.769766] (stonefish_ros2) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[3.770791] (stonefish_ros2) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[3.771791] (stonefish_ros2) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[3.772848] (stonefish_ros2) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[3.773935] (stonefish_ros2) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[3.774446] (stonefish_ros2) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[3.774915] (stonefish_ros2) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[3.775970] (stonefish_ros2) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[3.777172] (stonefish_ros2) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[3.778552] (stonefish_ros2) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[3.779703] (stonefish_ros2) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[3.780869] (stonefish_ros2) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[3.781989] (stonefish_ros2) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[3.783169] (stonefish_ros2) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[3.784246] (stonefish_ros2) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[3.785617] (stonefish_ros2) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[3.786716] (stonefish_ros2) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[3.787958] (stonefish_ros2) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[3.789688] (stonefish_ros2) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[3.790998] (stonefish_ros2) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[3.791782] (stonefish_ros2) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[3.806194] (-) TimerEvent: {}
+[3.852900] (stonefish_ros2) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[3.855028] (stonefish_ros2) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[3.857063] (stonefish_ros2) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[3.868894] (stonefish_ros2) StdoutLine: {'line': b'-- Found image_transport: 3.1.12 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[3.906367] (-) TimerEvent: {}
+[3.935329] (stonefish_ros2) StdoutLine: {'line': b'-- Found tf2: 0.25.17 (/opt/ros/humble/share/tf2/cmake)\n'}
+[3.941620] (stonefish_ros2) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.17 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[4.006513] (-) TimerEvent: {}
+[4.065165] (stonefish_ros2) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[4.073125] (stonefish_ros2) StdoutLine: {'line': b'-- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") \n'}
+[4.106648] (-) TimerEvent: {}
+[4.206947] (-) TimerEvent: {}
+[4.307261] (-) TimerEvent: {}
+[4.372058] (stonefish_ros2) StdoutLine: {'line': b'-- Found OpenMP_C: -fopenmp (found version "4.5") \n'}
+[4.407405] (-) TimerEvent: {}
+[4.507711] (-) TimerEvent: {}
+[4.544465] (stonefish_ros2) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[4.544750] (stonefish_ros2) StdoutLine: {'line': b'-- Found OpenMP: TRUE (found version "4.5")  \n'}
+[4.607803] (-) TimerEvent: {}
+[4.708266] (-) TimerEvent: {}
+[4.808917] (-) TimerEvent: {}
+[4.909196] (-) TimerEvent: {}
+[5.009429] (-) TimerEvent: {}
+[5.092823] (stonefish_ros2) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[5.109522] (-) TimerEvent: {}
+[5.209800] (-) TimerEvent: {}
+[5.310088] (-) TimerEvent: {}
+[5.410327] (-) TimerEvent: {}
+[5.510645] (-) TimerEvent: {}
+[5.610059] (stonefish_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.610720] (-) TimerEvent: {}
+[5.710972] (-) TimerEvent: {}
+[5.811272] (-) TimerEvent: {}
+[5.811979] (stonefish_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.841019] (stonefish_ros2) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[5.843798] (stonefish_ros2) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[5.878185] (stonefish_ros2) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[5.878469] (stonefish_ros2) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.878613] (stonefish_ros2) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[5.878746] (stonefish_ros2) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[5.903189] (stonefish_ros2) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[5.911356] (-) TimerEvent: {}
+[5.990285] (stonefish_ros2) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:45 (find_package):\n'}
+[5.990523] (stonefish_ros2) StderrLine: {'line': b'  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.\n'}
+[5.990646] (stonefish_ros2) StderrLine: {'line': b'  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy\n'}
+[5.990761] (stonefish_ros2) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[5.990876] (stonefish_ros2) StderrLine: {'line': b'\n'}
+[5.990990] (stonefish_ros2) StderrLine: {'line': b'  CMake variable PCL_ROOT is set to:\n'}
+[5.991120] (stonefish_ros2) StderrLine: {'line': b'\n'}
+[5.991242] (stonefish_ros2) StderrLine: {'line': b'    /usr\n'}
+[5.991351] (stonefish_ros2) StderrLine: {'line': b'\n'}
+[5.991465] (stonefish_ros2) StderrLine: {'line': b'  For compatibility, CMake is ignoring the variable.\n'}
+[5.991579] (stonefish_ros2) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[5.991711] (stonefish_ros2) StderrLine: {'line': b'\x1b[0m\n'}
+[6.011465] (-) TimerEvent: {}
+[6.015470] (stonefish_ros2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.050472] (stonefish_ros2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.051499] (stonefish_ros2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/apenchu/hobi/ros2_ws/src/stonefish_ros2/include>\n'}
+[6.051663] (stonefish_ros2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.052935] (stonefish_ros2) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[6.054846] (stonefish_ros2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.056260] (stonefish_ros2) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[6.062000] (stonefish_ros2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.062199] (stonefish_ros2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.063385] (stonefish_ros2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.066975] (stonefish_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.111577] (-) TimerEvent: {}
+[6.212017] (-) TimerEvent: {}
+[6.312750] (-) TimerEvent: {}
+[6.413294] (-) TimerEvent: {}
+[6.513574] (-) TimerEvent: {}
+[6.560875] (stonefish_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[6.600821] (stonefish_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/apenchu/hobi/ros2_ws/src/build/stonefish_ros2\n'}
+[6.613706] (-) TimerEvent: {}
+[6.632449] (stonefish_ros2) CommandEnded: {'returncode': 0}
+[6.633882] (stonefish_ros2) JobProgress: {'identifier': 'stonefish_ros2', 'progress': 'build'}
+[6.636038] (stonefish_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/apenchu/hobi/ros2_ws/src/build/stonefish_ros2', '--', '-j8', '-l8'], 'cwd': '/home/apenchu/hobi/ros2_ws/src/build/stonefish_ros2', 'env': OrderedDict([('LESS_TERMCAP_se', '\x1b[0m'), ('HISTFILESIZE', '10000'), ('HISTTIMEFORMAT', '%F %T'), ('WARP_HONOR_PS1', '1'), ('USER', 'apenchu'), ('LESS_TERMCAP_ue', '\x1b[0m'), ('LC_TIME', 'id_ID.UTF-8'), ('NODE_FUNCTION_ALLOW_EXTERNAL', 'child_process'), ('STARSHIP_SHELL', 'bash'), ('XDG_SESSION_TYPE', 'wayland'), ('XDG_CACHE_HOME', '/home/apenchu/.cache'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/apenchu'), ('OLDPWD', '/home/apenchu/hobi'), ('TERM_PROGRAM_VERSION', 'v0.2025.12.17.17.17.stable_02'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/apenchu/.config/nvm/versions/node/v24.12.0/bin'), ('NVM_INC', '/home/apenchu/.config/nvm/versions/node/v24.12.0/include/node'), ('WARP_USE_SSH_WRAPPER', '1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/apenchu/.config/autostart/ulauncher.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LESS_TERMCAP_so', '\x1b[01;44;33m'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '999'), ('SYSTEMD_EXEC_PID', '1477'), ('IM_CONFIG_CHECK_ENV', '1'), ('LINUXTOOLBOXDIR', '/home/apenchu/linuxtoolbox'), ('VISUAL', 'nvim'), ('XDG_STATE_HOME', '/home/apenchu/.local/state'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1783'), ('NVM_DIR', '/home/apenchu/.config/nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'apenchu'), ('LESS_TERMCAP_us', '\x1b[01;32m'), ('DESKTOP_AUTOSTART_ID', '104e80f2c6b0542491176889888597246300000014770017'), ('JOURNAL_STREAM', '8:9064'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'apenchu'), ('SSH_SOCKET_DIR', '~/.ssh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WARP_IS_LOCAL_SHELL_SESSION', '1'), ('HISTCONTROL', 'erasedups:ignoredups:ignorespace'), ('PATH', '/home/apenchu/.local/bin:/home/apenchu/.local/bin:/home/apenchu/.local/bin:/home/apenchu/.local/bin:/opt/ros/humble/bin:/home/apenchu/.config/nvm/versions/node/v24.12.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/apenchu/.local/bin:/home/apenchu/.cargo/bin:/var/lib/flatpak/exports/bin:/.local/share/flatpak/exports/bin:/home/apenchu/.local/bin:/home/apenchu/.cargo/bin:/var/lib/flatpak/exports/bin:/.local/share/flatpak/exports/bin'), ('SESSION_MANAGER', 'local/apenchu-ThinkPad-T480:@/tmp/.ICE-unix/1477,unix/apenchu-ThinkPad-T480:/tmp/.ICE-unix/1477'), ('INVOCATION_ID', '0968890472264319af5ad772543406de'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('HISTSIZE', '500'), ('WARP_PATH_APPEND', ''), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XDG_DATA_HOME', '/home/apenchu/.local/share'), ('XDG_CONFIG_HOME', '/home/apenchu/.config'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZYQ1I3'), ('LS_COLORS', 'no=00:fi=00:di=00;34:ln=01;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.gz=01;31:*.bz2=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.avi=01;35:*.fli=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.ogg=01;35:*.mp3=01;35:*.wav=01;35:*.xml=00;31:'), ('TERM_PROGRAM', 'WarpTerminal'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESS_TERMCAP_mb', '\x1b[01;31m'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('LESS_TERMCAP_md', '\x1b[01;31m'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/apenchu/hobi/ros2_ws/src/build/stonefish_ros2'), ('CLICOLOR', '1'), ('LESS_TERMCAP_me', '\x1b[0m'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/apenchu/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('STARSHIP_SESSION_KEY', '1970016502162238'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('EDITOR', 'nvim'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.696752] (stonefish_ros2) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[6.708728] (stonefish_ros2) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[6.713793] (-) TimerEvent: {}
+[6.717841] (stonefish_ros2) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_stonefish_ros2\n'}
+[6.813925] (-) TimerEvent: {}
+[6.914159] (-) TimerEvent: {}
+[7.014438] (-) TimerEvent: {}
+[7.071930] (stonefish_ros2) StdoutLine: {'line': b'running egg_info\n'}
+[7.072766] (stonefish_ros2) StdoutLine: {'line': b'creating stonefish_ros2.egg-info\n'}
+[7.073165] (stonefish_ros2) StdoutLine: {'line': b'writing stonefish_ros2.egg-info/PKG-INFO\n'}
+[7.073319] (stonefish_ros2) StdoutLine: {'line': b'writing dependency_links to stonefish_ros2.egg-info/dependency_links.txt\n'}
+[7.073537] (stonefish_ros2) StdoutLine: {'line': b'writing top-level names to stonefish_ros2.egg-info/top_level.txt\n'}
+[7.073745] (stonefish_ros2) StdoutLine: {'line': b"writing manifest file 'stonefish_ros2.egg-info/SOURCES.txt'\n"}
+[7.077591] (stonefish_ros2) StdoutLine: {'line': b"reading manifest file 'stonefish_ros2.egg-info/SOURCES.txt'\n"}
+[7.078390] (stonefish_ros2) StdoutLine: {'line': b"writing manifest file 'stonefish_ros2.egg-info/SOURCES.txt'\n"}
+[7.111239] (stonefish_ros2) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_build_stonefish_ros2_egg\n'}
+[7.114563] (-) TimerEvent: {}
+[7.214818] (-) TimerEvent: {}
+[7.315081] (-) TimerEvent: {}
+[7.415327] (-) TimerEvent: {}
+[7.515593] (-) TimerEvent: {}
+[7.615843] (-) TimerEvent: {}
+[7.716113] (-) TimerEvent: {}
+[7.816343] (-) TimerEvent: {}
+[7.916618] (-) TimerEvent: {}
+[8.016859] (-) TimerEvent: {}
+[8.117123] (-) TimerEvent: {}
+[8.217519] (-) TimerEvent: {}
+[8.319946] (-) TimerEvent: {}
+[8.335270] (stonefish_ros2) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_generator_c.dir/rosidl_generator_c/stonefish_ros2/msg/detail/int32_stamped__functions.c.o\x1b[0m\n'}
+[8.342305] (stonefish_ros2) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_generator_c.dir/rosidl_generator_c/stonefish_ros2/msg/detail/beacon_info__functions.c.o\x1b[0m\n'}
+[8.345183] (stonefish_ros2) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_generator_c.dir/rosidl_generator_c/stonefish_ros2/msg/detail/ned_pose__functions.c.o\x1b[0m\n'}
+[8.349412] (stonefish_ros2) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_generator_c.dir/rosidl_generator_c/stonefish_ros2/msg/detail/ins__functions.c.o\x1b[0m\n'}
+[8.360612] (stonefish_ros2) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_generator_c.dir/rosidl_generator_c/stonefish_ros2/msg/detail/dvl_beam__functions.c.o\x1b[0m\n'}
+[8.363442] (stonefish_ros2) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_generator_c.dir/rosidl_generator_c/stonefish_ros2/msg/detail/dvl__functions.c.o\x1b[0m\n'}
+[8.372057] (stonefish_ros2) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_generator_c.dir/rosidl_generator_c/stonefish_ros2/msg/detail/thruster_state__functions.c.o\x1b[0m\n'}
+[8.422226] (-) TimerEvent: {}
+[8.510874] (stonefish_ros2) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_generator_c.dir/rosidl_generator_c/stonefish_ros2/msg/detail/debug_physics__functions.c.o\x1b[0m\n'}
+[8.515452] (stonefish_ros2) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_generator_c.dir/rosidl_generator_c/stonefish_ros2/msg/detail/event__functions.c.o\x1b[0m\n'}
+[8.515820] (stonefish_ros2) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_generator_c.dir/rosidl_generator_c/stonefish_ros2/msg/detail/event_array__functions.c.o\x1b[0m\n'}
+[8.520421] (stonefish_ros2) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_generator_c.dir/rosidl_generator_c/stonefish_ros2/srv/detail/sonar_settings__functions.c.o\x1b[0m\n'}
+[8.524226] (stonefish_ros2) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_generator_c.dir/rosidl_generator_c/stonefish_ros2/srv/detail/sonar_settings2__functions.c.o\x1b[0m\n'}
+[8.524556] (-) TimerEvent: {}
+[8.530257] (stonefish_ros2) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_generator_c.dir/rosidl_generator_c/stonefish_ros2/srv/detail/respawn__functions.c.o\x1b[0m\n'}
+[8.587764] (stonefish_ros2) StdoutLine: {'line': b'[ 10%] Built target stonefish_ros2__cpp\n'}
+[8.611403] (stonefish_ros2) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.612066] (stonefish_ros2) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.623833] (stonefish_ros2) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[8.624654] (-) TimerEvent: {}
+[8.660367] (stonefish_ros2) StdoutLine: {'line': b'[ 13%] \x1b[32m\x1b[1mLinking C shared library libstonefish_ros2__rosidl_generator_c.so\x1b[0m\n'}
+[8.724280] (stonefish_ros2) StdoutLine: {'line': b'[ 13%] Built target stonefish_ros2__rosidl_generator_c\n'}
+[8.724733] (-) TimerEvent: {}
+[8.744690] (stonefish_ros2) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.744935] (stonefish_ros2) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.745113] (stonefish_ros2) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[8.824844] (-) TimerEvent: {}
+[8.925271] (-) TimerEvent: {}
+[9.025764] (-) TimerEvent: {}
+[9.126136] (-) TimerEvent: {}
+[9.226449] (-) TimerEvent: {}
+[9.326811] (-) TimerEvent: {}
+[9.427125] (-) TimerEvent: {}
+[9.527572] (-) TimerEvent: {}
+[9.627853] (-) TimerEvent: {}
+[9.728129] (-) TimerEvent: {}
+[9.828425] (-) TimerEvent: {}
+[9.928705] (-) TimerEvent: {}
+[9.981240] (stonefish_ros2) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/stonefish_ros2/msg/int32_stamped__type_support.cpp.o\x1b[0m\n'}
+[9.983338] (stonefish_ros2) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/stonefish_ros2/msg/ned_pose__type_support.cpp.o\x1b[0m\n'}
+[9.983637] (stonefish_ros2) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/stonefish_ros2/msg/beacon_info__type_support.cpp.o\x1b[0m\n'}
+[10.028987] (-) TimerEvent: {}
+[10.111091] (stonefish_ros2) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/stonefish_ros2/msg/int32_stamped__type_support.cpp.o\x1b[0m\n'}
+[10.129901] (-) TimerEvent: {}
+[10.180746] (stonefish_ros2) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/stonefish_ros2/msg/beacon_info__type_support.cpp.o\x1b[0m\n'}
+[10.230013] (-) TimerEvent: {}
+[10.264945] (stonefish_ros2) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/stonefish_ros2/msg/ned_pose__type_support.cpp.o\x1b[0m\n'}
+[10.331137] (-) TimerEvent: {}
+[10.341605] (stonefish_ros2) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/stonefish_ros2/msg/ins__type_support.cpp.o\x1b[0m\n'}
+[10.431384] (-) TimerEvent: {}
+[10.434333] (stonefish_ros2) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/stonefish_ros2/msg/dvl_beam__type_support.cpp.o\x1b[0m\n'}
+[10.516683] (stonefish_ros2) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/stonefish_ros2/msg/dvl__type_support.cpp.o\x1b[0m\n'}
+[10.531453] (-) TimerEvent: {}
+[10.598237] (stonefish_ros2) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/stonefish_ros2/msg/thruster_state__type_support.cpp.o\x1b[0m\n'}
+[10.631593] (-) TimerEvent: {}
+[10.665257] (stonefish_ros2) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/stonefish_ros2/msg/debug_physics__type_support.cpp.o\x1b[0m\n'}
+[10.702110] (stonefish_ros2) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/stonefish_ros2/msg/event__type_support.cpp.o\x1b[0m\n'}
+[10.731670] (-) TimerEvent: {}
+[10.733934] (stonefish_ros2) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/stonefish_ros2/msg/ins__type_support.cpp.o\x1b[0m\n'}
+[10.780157] (stonefish_ros2) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/stonefish_ros2/msg/event_array__type_support.cpp.o\x1b[0m\n'}
+[10.804248] (stonefish_ros2) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/stonefish_ros2/srv/sonar_settings__type_support.cpp.o\x1b[0m\n'}
+[10.817308] (stonefish_ros2) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/stonefish_ros2/msg/dvl_beam__type_support.cpp.o\x1b[0m\n'}
+[10.831783] (-) TimerEvent: {}
+[10.870042] (stonefish_ros2) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/stonefish_ros2/msg/dvl__type_support.cpp.o\x1b[0m\n'}
+[10.895253] (stonefish_ros2) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/stonefish_ros2/srv/sonar_settings2__type_support.cpp.o\x1b[0m\n'}
+[10.936649] (-) TimerEvent: {}
+[11.022856] (stonefish_ros2) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/stonefish_ros2/srv/respawn__type_support.cpp.o\x1b[0m\n'}
+[11.036759] (-) TimerEvent: {}
+[11.103760] (stonefish_ros2) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/stonefish_ros2/msg/detail/int32_stamped__type_support.cpp.o\x1b[0m\n'}
+[11.140264] (-) TimerEvent: {}
+[11.144046] (stonefish_ros2) StdoutLine: {'line': b'[ 32%] \x1b[32m\x1b[1mLinking CXX shared library libstonefish_ros2__rosidl_typesupport_c.so\x1b[0m\n'}
+[11.240629] (-) TimerEvent: {}
+[11.274912] (stonefish_ros2) StdoutLine: {'line': b'[ 32%] Built target stonefish_ros2__rosidl_typesupport_c\n'}
+[11.306210] (stonefish_ros2) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/stonefish_ros2/msg/thruster_state__type_support.cpp.o\x1b[0m\n'}
+[11.340768] (-) TimerEvent: {}
+[11.360668] (stonefish_ros2) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/stonefish_ros2/msg/detail/int32_stamped__type_support.c.o\x1b[0m\n'}
+[11.441083] (-) TimerEvent: {}
+[11.456021] (stonefish_ros2) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/stonefish_ros2/msg/detail/beacon_info__type_support.c.o\x1b[0m\n'}
+[11.541168] (-) TimerEvent: {}
+[11.585745] (stonefish_ros2) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/stonefish_ros2/msg/detail/ned_pose__type_support.c.o\x1b[0m\n'}
+[11.608183] (stonefish_ros2) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/stonefish_ros2/msg/detail/dds_fastrtps/int32_stamped__type_support.cpp.o\x1b[0m\n'}
+[11.634179] (stonefish_ros2) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/stonefish_ros2/msg/detail/dds_fastrtps/beacon_info__type_support.cpp.o\x1b[0m\n'}
+[11.641286] (-) TimerEvent: {}
+[11.666339] (stonefish_ros2) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/stonefish_ros2/msg/detail/ins__type_support.c.o\x1b[0m\n'}
+[11.666711] (stonefish_ros2) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/stonefish_ros2/msg/detail/int32_stamped__type_support_c.cpp.o\x1b[0m\n'}
+[11.727636] (stonefish_ros2) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/stonefish_ros2/msg/detail/beacon_info__type_support_c.cpp.o\x1b[0m\n'}
+[11.742157] (stonefish_ros2) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/stonefish_ros2/msg/detail/beacon_info__type_support.cpp.o\x1b[0m\n'}
+[11.742445] (-) TimerEvent: {}
+[11.804951] (stonefish_ros2) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/stonefish_ros2/msg/detail/dvl_beam__type_support.c.o\x1b[0m\n'}
+[11.842604] (-) TimerEvent: {}
+[11.947156] (-) TimerEvent: {}
+[12.055169] (-) TimerEvent: {}
+[12.070478] (stonefish_ros2) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/stonefish_ros2/msg/detail/dvl__type_support.c.o\x1b[0m\n'}
+[12.158156] (-) TimerEvent: {}
+[12.195534] (stonefish_ros2) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/stonefish_ros2/msg/detail/ned_pose__type_support_c.cpp.o\x1b[0m\n'}
+[12.260265] (-) TimerEvent: {}
+[12.326610] (stonefish_ros2) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/stonefish_ros2/msg/detail/thruster_state__type_support.c.o\x1b[0m\n'}
+[12.350668] (stonefish_ros2) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/stonefish_ros2/msg/debug_physics__type_support.cpp.o\x1b[0m\n'}
+[12.360388] (-) TimerEvent: {}
+[12.441466] (stonefish_ros2) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/stonefish_ros2/msg/detail/debug_physics__type_support.c.o\x1b[0m\n'}
+[12.460497] (-) TimerEvent: {}
+[12.526851] (stonefish_ros2) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/stonefish_ros2/msg/detail/event__type_support.c.o\x1b[0m\n'}
+[12.560609] (-) TimerEvent: {}
+[12.609422] (stonefish_ros2) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/stonefish_ros2/msg/detail/event_array__type_support.c.o\x1b[0m\n'}
+[12.609753] (stonefish_ros2) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/stonefish_ros2/msg/detail/dds_fastrtps/ned_pose__type_support.cpp.o\x1b[0m\n'}
+[12.637533] (stonefish_ros2) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/stonefish_ros2/msg/detail/ned_pose__type_support.cpp.o\x1b[0m\n'}
+[12.660724] (-) TimerEvent: {}
+[12.697822] (stonefish_ros2) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/stonefish_ros2/srv/detail/sonar_settings__type_support.c.o\x1b[0m\n'}
+[12.705636] (stonefish_ros2) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/stonefish_ros2/msg/detail/dds_fastrtps/ins__type_support.cpp.o\x1b[0m\n'}
+[12.757005] (stonefish_ros2) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/stonefish_ros2/msg/event__type_support.cpp.o\x1b[0m\n'}
+[12.764139] (-) TimerEvent: {}
+[12.776323] (stonefish_ros2) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/stonefish_ros2/srv/detail/sonar_settings2__type_support.c.o\x1b[0m\n'}
+[12.853082] (stonefish_ros2) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/stonefish_ros2/srv/detail/respawn__type_support.c.o\x1b[0m\n'}
+[12.864265] (-) TimerEvent: {}
+[12.950754] (stonefish_ros2) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking C shared library libstonefish_ros2__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[12.964377] (-) TimerEvent: {}
+[13.041508] (stonefish_ros2) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/stonefish_ros2/msg/event_array__type_support.cpp.o\x1b[0m\n'}
+[13.052112] (stonefish_ros2) StdoutLine: {'line': b'[ 51%] Built target stonefish_ros2__rosidl_typesupport_introspection_c\n'}
+[13.064494] (-) TimerEvent: {}
+[13.072474] (stonefish_ros2) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/stonefish_ros2/msg/detail/dds_fastrtps/dvl_beam__type_support.cpp.o\x1b[0m\n'}
+[13.073638] (stonefish_ros2) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/stonefish_ros2/msg/detail/ins__type_support.cpp.o\x1b[0m\n'}
+[13.081323] (stonefish_ros2) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/stonefish_ros2/msg/detail/ins__type_support_c.cpp.o\x1b[0m\n'}
+[13.164611] (-) TimerEvent: {}
+[13.265129] (-) TimerEvent: {}
+[13.365508] (-) TimerEvent: {}
+[13.437456] (stonefish_ros2) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/stonefish_ros2/msg/detail/dvl_beam__type_support_c.cpp.o\x1b[0m\n'}
+[13.438540] (stonefish_ros2) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/stonefish_ros2/srv/sonar_settings__type_support.cpp.o\x1b[0m\n'}
+[13.465631] (-) TimerEvent: {}
+[13.566021] (-) TimerEvent: {}
+[13.574712] (stonefish_ros2) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/stonefish_ros2/msg/detail/dvl__type_support_c.cpp.o\x1b[0m\n'}
+[13.666477] (-) TimerEvent: {}
+[13.735860] (stonefish_ros2) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/stonefish_ros2/msg/detail/thruster_state__type_support_c.cpp.o\x1b[0m\n'}
+[13.743250] (stonefish_ros2) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/stonefish_ros2/msg/detail/debug_physics__type_support_c.cpp.o\x1b[0m\n'}
+[13.766591] (-) TimerEvent: {}
+[13.867166] (-) TimerEvent: {}
+[13.933642] (stonefish_ros2) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/stonefish_ros2/msg/detail/dvl_beam__type_support.cpp.o\x1b[0m\n'}
+[13.961309] (stonefish_ros2) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/stonefish_ros2/msg/detail/event__type_support_c.cpp.o\x1b[0m\n'}
+[13.967260] (-) TimerEvent: {}
+[14.067635] (-) TimerEvent: {}
+[14.088059] (stonefish_ros2) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/stonefish_ros2/msg/detail/dds_fastrtps/dvl__type_support.cpp.o\x1b[0m\n'}
+[14.167763] (-) TimerEvent: {}
+[14.268269] (-) TimerEvent: {}
+[14.277850] (stonefish_ros2) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/stonefish_ros2/srv/sonar_settings2__type_support.cpp.o\x1b[0m\n'}
+[14.368419] (-) TimerEvent: {}
+[14.385474] (stonefish_ros2) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/stonefish_ros2/msg/detail/dds_fastrtps/thruster_state__type_support.cpp.o\x1b[0m\n'}
+[14.410458] (stonefish_ros2) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/stonefish_ros2/msg/detail/dvl__type_support.cpp.o\x1b[0m\n'}
+[14.471174] (-) TimerEvent: {}
+[14.571588] (-) TimerEvent: {}
+[14.631415] (stonefish_ros2) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/stonefish_ros2/msg/detail/thruster_state__type_support.cpp.o\x1b[0m\n'}
+[14.633428] (stonefish_ros2) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/stonefish_ros2/msg/detail/event_array__type_support_c.cpp.o\x1b[0m\n'}
+[14.671707] (-) TimerEvent: {}
+[14.726871] (stonefish_ros2) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/stonefish_ros2/srv/detail/sonar_settings__type_support_c.cpp.o\x1b[0m\n'}
+[14.773176] (-) TimerEvent: {}
+[14.799176] (stonefish_ros2) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/stonefish_ros2/msg/detail/dds_fastrtps/debug_physics__type_support.cpp.o\x1b[0m\n'}
+[14.873277] (-) TimerEvent: {}
+[14.958730] (stonefish_ros2) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/stonefish_ros2/srv/respawn__type_support.cpp.o\x1b[0m\n'}
+[14.973394] (-) TimerEvent: {}
+[15.073814] (-) TimerEvent: {}
+[15.174314] (-) TimerEvent: {}
+[15.232023] (stonefish_ros2) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/stonefish_ros2/msg/detail/debug_physics__type_support.cpp.o\x1b[0m\n'}
+[15.274436] (-) TimerEvent: {}
+[15.316262] (stonefish_ros2) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/stonefish_ros2/srv/detail/sonar_settings2__type_support_c.cpp.o\x1b[0m\n'}
+[15.374555] (-) TimerEvent: {}
+[15.477187] (-) TimerEvent: {}
+[15.487324] (stonefish_ros2) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/stonefish_ros2/srv/detail/respawn__type_support_c.cpp.o\x1b[0m\n'}
+[15.546443] (stonefish_ros2) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/stonefish_ros2/msg/detail/dds_fastrtps/event__type_support.cpp.o\x1b[0m\n'}
+[15.572218] (stonefish_ros2) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/stonefish_ros2/msg/detail/dds_fastrtps/event_array__type_support.cpp.o\x1b[0m\n'}
+[15.578950] (-) TimerEvent: {}
+[15.679775] (-) TimerEvent: {}
+[15.789223] (-) TimerEvent: {}
+[15.889779] (-) TimerEvent: {}
+[15.937290] (stonefish_ros2) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/stonefish_ros2/msg/detail/event__type_support.cpp.o\x1b[0m\n'}
+[15.938457] (stonefish_ros2) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libstonefish_ros2__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[15.966159] (stonefish_ros2) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/stonefish_ros2/msg/detail/event_array__type_support.cpp.o\x1b[0m\n'}
+[15.989922] (-) TimerEvent: {}
+[16.072466] (stonefish_ros2) StdoutLine: {'line': b'[ 70%] Built target stonefish_ros2__rosidl_typesupport_cpp\n'}
+[16.091348] (stonefish_ros2) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/stonefish_ros2/srv/detail/dds_fastrtps/sonar_settings__type_support.cpp.o\x1b[0m\n'}
+[16.091637] (-) TimerEvent: {}
+[16.191962] (-) TimerEvent: {}
+[16.292373] (-) TimerEvent: {}
+[16.299558] (stonefish_ros2) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/stonefish_ros2/srv/detail/sonar_settings__type_support.cpp.o\x1b[0m\n'}
+[16.305173] (stonefish_ros2) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/stonefish_ros2/srv/detail/sonar_settings2__type_support.cpp.o\x1b[0m\n'}
+[16.392525] (-) TimerEvent: {}
+[16.493024] (-) TimerEvent: {}
+[16.593554] (-) TimerEvent: {}
+[16.694160] (-) TimerEvent: {}
+[16.721336] (stonefish_ros2) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/stonefish_ros2/srv/detail/respawn__type_support.cpp.o\x1b[0m\n'}
+[16.734098] (stonefish_ros2) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libstonefish_ros2__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[16.775177] (stonefish_ros2) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2_interface.dir/src/stonefish_ros2/ROS2ConsoleSimulationApp.cpp.o\x1b[0m\n'}
+[16.778536] (stonefish_ros2) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2_interface.dir/src/stonefish_ros2/ROS2GraphicalSimulationApp.cpp.o\x1b[0m\n'}
+[16.794282] (-) TimerEvent: {}
+[16.846267] (stonefish_ros2) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2_interface.dir/src/stonefish_ros2/ROS2SimulationManager.cpp.o\x1b[0m\n'}
+[16.894897] (-) TimerEvent: {}
+[16.955962] (stonefish_ros2) StdoutLine: {'line': b'[ 75%] Built target stonefish_ros2__rosidl_typesupport_fastrtps_c\n'}
+[16.971859] (stonefish_ros2) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/stonefish_ros2/srv/detail/dds_fastrtps/sonar_settings2__type_support.cpp.o\x1b[0m\n'}
+[16.995008] (-) TimerEvent: {}
+[17.095518] (-) TimerEvent: {}
+[17.128442] (stonefish_ros2) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2_interface.dir/src/stonefish_ros2/ROS2ScenarioParser.cpp.o\x1b[0m\n'}
+[17.195639] (-) TimerEvent: {}
+[17.221691] (stonefish_ros2) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2_interface.dir/src/stonefish_ros2/ROS2Interface.cpp.o\x1b[0m\n'}
+[17.295750] (-) TimerEvent: {}
+[17.389216] (stonefish_ros2) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/stonefish_ros2/srv/detail/dds_fastrtps/respawn__type_support.cpp.o\x1b[0m\n'}
+[17.398143] (-) TimerEvent: {}
+[17.485022] (stonefish_ros2) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libstonefish_ros2__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[17.498257] (-) TimerEvent: {}
+[17.598832] (-) TimerEvent: {}
+[17.657269] (stonefish_ros2) StdoutLine: {'line': b'[ 79%] Built target stonefish_ros2__rosidl_typesupport_introspection_cpp\n'}
+[17.698955] (-) TimerEvent: {}
+[17.800133] (-) TimerEvent: {}
+[17.900481] (-) TimerEvent: {}
+[18.000806] (-) TimerEvent: {}
+[18.101121] (-) TimerEvent: {}
+[18.201628] (-) TimerEvent: {}
+[18.302173] (-) TimerEvent: {}
+[18.371230] (stonefish_ros2) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX shared library libstonefish_ros2__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[18.402295] (-) TimerEvent: {}
+[18.502840] (-) TimerEvent: {}
+[18.603308] (-) TimerEvent: {}
+[18.606537] (stonefish_ros2) StdoutLine: {'line': b'[ 80%] Built target stonefish_ros2__rosidl_typesupport_fastrtps_cpp\n'}
+[18.641642] (stonefish_ros2) StdoutLine: {'line': b'[ 80%] Built target stonefish_ros2\n'}
+[18.675897] (stonefish_ros2) StdoutLine: {'line': b'[ 81%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[18.703401] (-) TimerEvent: {}
+[18.803840] (-) TimerEvent: {}
+[18.904521] (-) TimerEvent: {}
+[19.004890] (-) TimerEvent: {}
+[19.106374] (-) TimerEvent: {}
+[19.206965] (-) TimerEvent: {}
+[19.307959] (-) TimerEvent: {}
+[19.408393] (-) TimerEvent: {}
+[19.508780] (-) TimerEvent: {}
+[19.609154] (-) TimerEvent: {}
+[19.711351] (-) TimerEvent: {}
+[19.812855] (-) TimerEvent: {}
+[19.914958] (-) TimerEvent: {}
+[20.016156] (-) TimerEvent: {}
+[20.117355] (-) TimerEvent: {}
+[20.217760] (-) TimerEvent: {}
+[20.318168] (-) TimerEvent: {}
+[20.418660] (-) TimerEvent: {}
+[20.519054] (-) TimerEvent: {}
+[20.619588] (-) TimerEvent: {}
+[20.720109] (-) TimerEvent: {}
+[20.820641] (-) TimerEvent: {}
+[20.921926] (-) TimerEvent: {}
+[21.022655] (-) TimerEvent: {}
+[21.127291] (-) TimerEvent: {}
+[21.227716] (-) TimerEvent: {}
+[21.328031] (-) TimerEvent: {}
+[21.428398] (-) TimerEvent: {}
+[21.528805] (-) TimerEvent: {}
+[21.629163] (-) TimerEvent: {}
+[21.729539] (-) TimerEvent: {}
+[21.829896] (-) TimerEvent: {}
+[21.930425] (-) TimerEvent: {}
+[22.030909] (-) TimerEvent: {}
+[22.131359] (-) TimerEvent: {}
+[22.232036] (-) TimerEvent: {}
+[22.333233] (-) TimerEvent: {}
+[22.433718] (-) TimerEvent: {}
+[22.534158] (-) TimerEvent: {}
+[22.634626] (-) TimerEvent: {}
+[22.735545] (-) TimerEvent: {}
+[22.835937] (-) TimerEvent: {}
+[22.936356] (-) TimerEvent: {}
+[23.036762] (-) TimerEvent: {}
+[23.137988] (-) TimerEvent: {}
+[23.238413] (-) TimerEvent: {}
+[23.338777] (-) TimerEvent: {}
+[23.439165] (-) TimerEvent: {}
+[23.539943] (-) TimerEvent: {}
+[23.640313] (-) TimerEvent: {}
+[23.740678] (-) TimerEvent: {}
+[23.841054] (-) TimerEvent: {}
+[23.941446] (-) TimerEvent: {}
+[24.043546] (-) TimerEvent: {}
+[24.145036] (-) TimerEvent: {}
+[24.236460] (stonefish_ros2) StdoutLine: {'line': b'[ 81%] Built target stonefish_ros2__py\n'}
+[24.245192] (-) TimerEvent: {}
+[24.275978] (stonefish_ros2) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_generator_py.dir/rosidl_generator_py/stonefish_ros2/msg/_ned_pose_s.c.o\x1b[0m\n'}
+[24.276892] (stonefish_ros2) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_generator_py.dir/rosidl_generator_py/stonefish_ros2/msg/_int32_stamped_s.c.o\x1b[0m\n'}
+[24.277587] (stonefish_ros2) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_generator_py.dir/rosidl_generator_py/stonefish_ros2/msg/_beacon_info_s.c.o\x1b[0m\n'}
+[24.345309] (-) TimerEvent: {}
+[24.445698] (-) TimerEvent: {}
+[24.547185] (-) TimerEvent: {}
+[24.593730] (stonefish_ros2) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_generator_py.dir/rosidl_generator_py/stonefish_ros2/msg/_ins_s.c.o\x1b[0m\n'}
+[24.595341] (stonefish_ros2) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_generator_py.dir/rosidl_generator_py/stonefish_ros2/msg/_dvl_beam_s.c.o\x1b[0m\n'}
+[24.599098] (stonefish_ros2) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_generator_py.dir/rosidl_generator_py/stonefish_ros2/msg/_dvl_s.c.o\x1b[0m\n'}
+[24.647443] (-) TimerEvent: {}
+[24.747846] (-) TimerEvent: {}
+[24.851928] (-) TimerEvent: {}
+[24.910438] (stonefish_ros2) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_generator_py.dir/rosidl_generator_py/stonefish_ros2/msg/_thruster_state_s.c.o\x1b[0m\n'}
+[24.919475] (stonefish_ros2) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_generator_py.dir/rosidl_generator_py/stonefish_ros2/msg/_event_s.c.o\x1b[0m\n'}
+[24.927128] (stonefish_ros2) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_generator_py.dir/rosidl_generator_py/stonefish_ros2/msg/_debug_physics_s.c.o\x1b[0m\n'}
+[24.952485] (-) TimerEvent: {}
+[25.052866] (-) TimerEvent: {}
+[25.160311] (-) TimerEvent: {}
+[25.260731] (-) TimerEvent: {}
+[25.280261] (stonefish_ros2) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_generator_py.dir/rosidl_generator_py/stonefish_ros2/msg/_event_array_s.c.o\x1b[0m\n'}
+[25.280676] (stonefish_ros2) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_generator_py.dir/rosidl_generator_py/stonefish_ros2/srv/_sonar_settings_s.c.o\x1b[0m\n'}
+[25.303478] (stonefish_ros2) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_generator_py.dir/rosidl_generator_py/stonefish_ros2/srv/_sonar_settings2_s.c.o\x1b[0m\n'}
+[25.360865] (-) TimerEvent: {}
+[25.461304] (-) TimerEvent: {}
+[25.561754] (-) TimerEvent: {}
+[25.610661] (stonefish_ros2) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_generator_py.dir/rosidl_generator_py/stonefish_ros2/srv/_respawn_s.c.o\x1b[0m\n'}
+[25.661876] (-) TimerEvent: {}
+[25.762310] (-) TimerEvent: {}
+[25.863027] (-) TimerEvent: {}
+[25.866354] (stonefish_ros2) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/stonefish_ros2/libstonefish_ros2__rosidl_generator_py.so\x1b[0m\n'}
+[25.963163] (-) TimerEvent: {}
+[25.968405] (stonefish_ros2) StdoutLine: {'line': b'[ 91%] Built target stonefish_ros2__rosidl_generator_py\n'}
+[26.022520] (stonefish_ros2) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/stonefish_ros2/_stonefish_ros2_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[26.027017] (stonefish_ros2) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/stonefish_ros2/_stonefish_ros2_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[26.027385] (stonefish_ros2) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/stonefish_ros2/_stonefish_ros2_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[26.067153] (-) TimerEvent: {}
+[26.167585] (-) TimerEvent: {}
+[26.267961] (-) TimerEvent: {}
+[26.368407] (-) TimerEvent: {}
+[26.468848] (-) TimerEvent: {}
+[26.522842] (stonefish_ros2) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/stonefish_ros2/stonefish_ros2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[26.527061] (stonefish_ros2) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/stonefish_ros2/stonefish_ros2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[26.530386] (stonefish_ros2) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/stonefish_ros2/stonefish_ros2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[26.569017] (-) TimerEvent: {}
+[26.636489] (stonefish_ros2) StdoutLine: {'line': b'[ 96%] Built target stonefish_ros2__rosidl_typesupport_introspection_c__pyext\n'}
+[26.647718] (stonefish_ros2) StdoutLine: {'line': b'[ 96%] Built target stonefish_ros2__rosidl_typesupport_c__pyext\n'}
+[26.663689] (stonefish_ros2) StdoutLine: {'line': b'[ 96%] Built target stonefish_ros2__rosidl_typesupport_fastrtps_c__pyext\n'}
+[26.669128] (-) TimerEvent: {}
+[26.769523] (-) TimerEvent: {}
+[26.869915] (-) TimerEvent: {}
+[26.970329] (-) TimerEvent: {}
+[27.070723] (-) TimerEvent: {}
+[27.171136] (-) TimerEvent: {}
+[27.271488] (-) TimerEvent: {}
+[27.371904] (-) TimerEvent: {}
+[27.472241] (-) TimerEvent: {}
+[27.572600] (-) TimerEvent: {}
+[27.673004] (-) TimerEvent: {}
+[27.773321] (-) TimerEvent: {}
+[27.873798] (-) TimerEvent: {}
+[27.974447] (-) TimerEvent: {}
+[28.074717] (-) TimerEvent: {}
+[28.175046] (-) TimerEvent: {}
+[28.275403] (-) TimerEvent: {}
+[28.375744] (-) TimerEvent: {}
+[28.476135] (-) TimerEvent: {}
+[28.576490] (-) TimerEvent: {}
+[28.676834] (-) TimerEvent: {}
+[28.777147] (-) TimerEvent: {}
+[28.877495] (-) TimerEvent: {}
+[28.977870] (-) TimerEvent: {}
+[29.078970] (-) TimerEvent: {}
+[29.179879] (-) TimerEvent: {}
+[29.280331] (-) TimerEvent: {}
+[29.380622] (-) TimerEvent: {}
+[29.480950] (-) TimerEvent: {}
+[29.581283] (-) TimerEvent: {}
+[29.681602] (-) TimerEvent: {}
+[29.781950] (-) TimerEvent: {}
+[29.882323] (-) TimerEvent: {}
+[29.982638] (-) TimerEvent: {}
+[30.082960] (-) TimerEvent: {}
+[30.183281] (-) TimerEvent: {}
+[30.283716] (-) TimerEvent: {}
+[30.384086] (-) TimerEvent: {}
+[30.484437] (-) TimerEvent: {}
+[30.584855] (-) TimerEvent: {}
+[30.685642] (-) TimerEvent: {}
+[30.786016] (-) TimerEvent: {}
+[30.886476] (-) TimerEvent: {}
+[30.986861] (-) TimerEvent: {}
+[31.087278] (-) TimerEvent: {}
+[31.187580] (-) TimerEvent: {}
+[31.287847] (-) TimerEvent: {}
+[31.388156] (-) TimerEvent: {}
+[31.488469] (-) TimerEvent: {}
+[31.588759] (-) TimerEvent: {}
+[31.689105] (-) TimerEvent: {}
+[31.789401] (-) TimerEvent: {}
+[31.889787] (-) TimerEvent: {}
+[31.990130] (-) TimerEvent: {}
+[32.064045] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/apenchu/hobi/ros2_ws/src/stonefish_ros2/src/stonefish_ros2/ROS2Interface.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid sf::ROS2Interface::\x1b[01;32m\x1b[KPublishEventBasedCamera\x1b[m\x1b[K(rclcpp::PublisherBase::SharedPtr, sf::EventBasedCamera*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[32.064544] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/apenchu/hobi/ros2_ws/src/stonefish_ros2/src/stonefish_ros2/ROS2Interface.cpp:697:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator+\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Header_<std::allocator<void> >::_stamp_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Duration\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[32.064663] (stonefish_ros2) StderrLine: {'line': b'  697 |         msg.events[i].ts = \x1b[32m\x1b[Kmsg.header.stamp\x1b[m\x1b[K \x1b[01;31m\x1b[K+\x1b[m\x1b[K rclcpp::\x1b[34m\x1b[KDuration(0, abs(data[i*2+1]))\x1b[m\x1b[K;\n'}
+[32.064744] (stonefish_ros2) StderrLine: {'line': b'      |                            \x1b[32m\x1b[K~~~~~~~~~~~~~~~~\x1b[m\x1b[K \x1b[01;31m\x1b[K^\x1b[m\x1b[K         \x1b[34m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.064992] (stonefish_ros2) StderrLine: {'line': b'      |                                       \x1b[32m\x1b[K|\x1b[m\x1b[K               \x1b[34m\x1b[K|\x1b[m\x1b[K\n'}
+[32.065177] (stonefish_ros2) StderrLine: {'line': b'      |                                       \x1b[32m\x1b[K|\x1b[m\x1b[K               \x1b[34m\x1b[Krclcpp::Duration\x1b[m\x1b[K\n'}
+[32.065317] (stonefish_ros2) StderrLine: {'line': b'      |                                       \x1b[32m\x1b[Kstd_msgs::msg::Header_<std::allocator<void> >::_stamp_type {aka builtin_interfaces::msg::Time_<std::allocator<void> >}\x1b[m\x1b[K\n'}
+[32.065559] (stonefish_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[32.065680] (stonefish_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/bits/stl_uninitialized.h:63\x1b[m\x1b[K,\n'}
+[32.065800] (stonefish_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/memory:69\x1b[m\x1b[K,\n'}
+[32.066059] (stonefish_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[32.066450] (stonefish_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/apenchu/hobi/ros2_ws/src/stonefish_ros2/include/stonefish_ros2/ROS2Interface.h:29\x1b[m\x1b[K,\n'}
+[32.066971] (stonefish_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/apenchu/hobi/ros2_ws/src/stonefish_ros2/src/stonefish_ros2/ROS2Interface.cpp:26\x1b[m\x1b[K:\n'}
+[32.067205] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_iterator.h:634:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Iterator> constexpr std::reverse_iterator<_IteratorL> std::\x1b[01;32m\x1b[Koperator+\x1b[m\x1b[K(typename reverse_iterator<_IteratorL>::difference_type, const reverse_iterator<_IteratorL>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[32.067342] (stonefish_ros2) StderrLine: {'line': b'  634 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(typename reverse_iterator<_Iterator>::difference_type __n,\n'}
+[32.067463] (stonefish_ros2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[32.067587] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_iterator.h:634:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[32.067828] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/apenchu/hobi/ros2_ws/src/stonefish_ros2/src/stonefish_ros2/ROS2Interface.cpp:697:83:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Duration\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::reverse_iterator<_IteratorL>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[32.068118] (stonefish_ros2) StderrLine: {'line': b'  697 |         msg.events[i].ts = msg.header.stamp + rclcpp::Duration(0, abs(data[i*2+1])\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[32.068242] (stonefish_ros2) StderrLine: {'line': b'      |                                                                                   \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[32.068355] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_iterator.h:1808:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Iterator> constexpr std::move_iterator<_IteratorL> std::\x1b[01;32m\x1b[Koperator+\x1b[m\x1b[K(typename move_iterator<_IteratorL>::difference_type, const move_iterator<_IteratorL>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[32.068478] (stonefish_ros2) StderrLine: {'line': b' 1808 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(typename move_iterator<_Iterator>::difference_type __n,\n'}
+[32.068587] (stonefish_ros2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[32.068695] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_iterator.h:1808:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[32.068803] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/apenchu/hobi/ros2_ws/src/stonefish_ros2/src/stonefish_ros2/ROS2Interface.cpp:697:83:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Duration\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::move_iterator<_IteratorL>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[32.068922] (stonefish_ros2) StderrLine: {'line': b'  697 |         msg.events[i].ts = msg.header.stamp + rclcpp::Duration(0, abs(data[i*2+1])\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[32.069030] (stonefish_ros2) StderrLine: {'line': b'      |                                                                                   \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[32.069134] (stonefish_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/string:54\x1b[m\x1b[K,\n'}
+[32.069201] (stonefish_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/bits/locale_classes.h:40\x1b[m\x1b[K,\n'}
+[32.069270] (stonefish_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/bits/ios_base.h:41\x1b[m\x1b[K,\n'}
+[32.069337] (stonefish_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/ios:44\x1b[m\x1b[K,\n'}
+[32.069400] (stonefish_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/ostream:40\x1b[m\x1b[K,\n'}
+[32.069503] (stonefish_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/bits/unique_ptr.h:42\x1b[m\x1b[K,\n'}
+[32.069615] (stonefish_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/memory:78\x1b[m\x1b[K:\n'}
+[32.069727] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/basic_string.h:3541:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> constexpr std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::\x1b[01;32m\x1b[Koperator+\x1b[m\x1b[K(const __cxx11::basic_string<_CharT, _Traits, _Allocator>&, const __cxx11::basic_string<_CharT, _Traits, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[32.069851] (stonefish_ros2) StderrLine: {'line': b' 3541 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,\n'}
+[32.069978] (stonefish_ros2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[32.070135] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/basic_string.h:3541:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[32.070298] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/apenchu/hobi/ros2_ws/src/stonefish_ros2/src/stonefish_ros2/ROS2Interface.cpp:697:83:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Header_<std::allocator<void> >::_stamp_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[32.070384] (stonefish_ros2) StderrLine: {'line': b'  697 |         msg.events[i].ts = msg.header.stamp + rclcpp::Duration(0, abs(data[i*2+1])\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[32.070449] (stonefish_ros2) StderrLine: {'line': b'      |                                                                                   \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[32.070512] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/basic_string.h:3559:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> constexpr std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::\x1b[01;32m\x1b[Koperator+\x1b[m\x1b[K(const _CharT*, const __cxx11::basic_string<_CharT, _Traits, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[32.070579] (stonefish_ros2) StderrLine: {'line': b' 3559 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(const _CharT* __lhs,\n'}
+[32.070641] (stonefish_ros2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[32.070703] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/basic_string.h:3559:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[32.070765] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/apenchu/hobi/ros2_ws/src/stonefish_ros2/src/stonefish_ros2/ROS2Interface.cpp:697:83:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst _CharT*\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[32.070830] (stonefish_ros2) StderrLine: {'line': b'  697 |         msg.events[i].ts = msg.header.stamp + rclcpp::Duration(0, abs(data[i*2+1])\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[32.070906] (stonefish_ros2) StderrLine: {'line': b'      |                                                                                   \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[32.070969] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/basic_string.h:3578:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> constexpr std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::\x1b[01;32m\x1b[Koperator+\x1b[m\x1b[K(_CharT, const __cxx11::basic_string<_CharT, _Traits, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[32.071038] (stonefish_ros2) StderrLine: {'line': b' 3578 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(_CharT __lhs, const basic_string<_CharT,_Traits,_Alloc>& __rhs)\n'}
+[32.071131] (stonefish_ros2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[32.071240] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/basic_string.h:3578:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[32.071315] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/apenchu/hobi/ros2_ws/src/stonefish_ros2/src/stonefish_ros2/ROS2Interface.cpp:697:83:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Duration\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[32.071384] (stonefish_ros2) StderrLine: {'line': b'  697 |         msg.events[i].ts = msg.header.stamp + rclcpp::Duration(0, abs(data[i*2+1])\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[32.071454] (stonefish_ros2) StderrLine: {'line': b'      |                                                                                   \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[32.071516] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/basic_string.h:3595:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> constexpr std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::\x1b[01;32m\x1b[Koperator+\x1b[m\x1b[K(const __cxx11::basic_string<_CharT, _Traits, _Allocator>&, const _CharT*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[32.071581] (stonefish_ros2) StderrLine: {'line': b' 3595 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,\n'}
+[32.071643] (stonefish_ros2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[32.071704] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/basic_string.h:3595:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[32.071768] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/apenchu/hobi/ros2_ws/src/stonefish_ros2/src/stonefish_ros2/ROS2Interface.cpp:697:83:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Header_<std::allocator<void> >::_stamp_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[32.071833] (stonefish_ros2) StderrLine: {'line': b'  697 |         msg.events[i].ts = msg.header.stamp + rclcpp::Duration(0, abs(data[i*2+1])\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[32.071894] (stonefish_ros2) StderrLine: {'line': b'      |                                                                                   \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[32.071955] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/basic_string.h:3613:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> constexpr std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::\x1b[01;32m\x1b[Koperator+\x1b[m\x1b[K(const __cxx11::basic_string<_CharT, _Traits, _Allocator>&, _CharT)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[32.072088] (stonefish_ros2) StderrLine: {'line': b' 3613 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs, _CharT __rhs)\n'}
+[32.072181] (stonefish_ros2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[32.072287] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/basic_string.h:3613:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[32.072355] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/apenchu/hobi/ros2_ws/src/stonefish_ros2/src/stonefish_ros2/ROS2Interface.cpp:697:83:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Header_<std::allocator<void> >::_stamp_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[32.072425] (stonefish_ros2) StderrLine: {'line': b'  697 |         msg.events[i].ts = msg.header.stamp + rclcpp::Duration(0, abs(data[i*2+1])\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[32.072491] (stonefish_ros2) StderrLine: {'line': b'      |                                                                                   \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[32.072555] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/basic_string.h:3625:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> constexpr std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::\x1b[01;32m\x1b[Koperator+\x1b[m\x1b[K(__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, const __cxx11::basic_string<_CharT, _Traits, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[32.072623] (stonefish_ros2) StderrLine: {'line': b' 3625 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,\n'}
+[32.072699] (stonefish_ros2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[32.072803] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/basic_string.h:3625:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[32.072870] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/apenchu/hobi/ros2_ws/src/stonefish_ros2/src/stonefish_ros2/ROS2Interface.cpp:697:83:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Header_<std::allocator<void> >::_stamp_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[32.072939] (stonefish_ros2) StderrLine: {'line': b'  697 |         msg.events[i].ts = msg.header.stamp + rclcpp::Duration(0, abs(data[i*2+1])\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[32.073003] (stonefish_ros2) StderrLine: {'line': b'      |                                                                                   \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[32.073065] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/basic_string.h:3632:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> constexpr std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::\x1b[01;32m\x1b[Koperator+\x1b[m\x1b[K(const __cxx11::basic_string<_CharT, _Traits, _Allocator>&, __cxx11::basic_string<_CharT, _Traits, _Allocator>&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[32.073167] (stonefish_ros2) StderrLine: {'line': b' 3632 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,\n'}
+[32.073235] (stonefish_ros2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[32.073297] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/basic_string.h:3632:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[32.073360] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/apenchu/hobi/ros2_ws/src/stonefish_ros2/src/stonefish_ros2/ROS2Interface.cpp:697:83:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Header_<std::allocator<void> >::_stamp_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[32.073430] (stonefish_ros2) StderrLine: {'line': b'  697 |         msg.events[i].ts = msg.header.stamp + rclcpp::Duration(0, abs(data[i*2+1])\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[32.073494] (stonefish_ros2) StderrLine: {'line': b'      |                                                                                   \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[32.073556] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/basic_string.h:3639:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> constexpr std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::\x1b[01;32m\x1b[Koperator+\x1b[m\x1b[K(__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, __cxx11::basic_string<_CharT, _Traits, _Allocator>&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[32.073623] (stonefish_ros2) StderrLine: {'line': b' 3639 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,\n'}
+[32.073686] (stonefish_ros2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[32.073749] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/basic_string.h:3639:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[32.073813] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/apenchu/hobi/ros2_ws/src/stonefish_ros2/src/stonefish_ros2/ROS2Interface.cpp:697:83:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Header_<std::allocator<void> >::_stamp_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[32.073880] (stonefish_ros2) StderrLine: {'line': b'  697 |         msg.events[i].ts = msg.header.stamp + rclcpp::Duration(0, abs(data[i*2+1])\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[32.073944] (stonefish_ros2) StderrLine: {'line': b'      |                                                                                   \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[32.074007] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/basic_string.h:3662:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> constexpr std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::\x1b[01;32m\x1b[Koperator+\x1b[m\x1b[K(const _CharT*, __cxx11::basic_string<_CharT, _Traits, _Allocator>&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[32.074087] (stonefish_ros2) StderrLine: {'line': b' 3662 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(const _CharT* __lhs,\n'}
+[32.074164] (stonefish_ros2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[32.074228] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/basic_string.h:3662:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[32.074292] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/apenchu/hobi/ros2_ws/src/stonefish_ros2/src/stonefish_ros2/ROS2Interface.cpp:697:83:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst _CharT*\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[32.074374] (stonefish_ros2) StderrLine: {'line': b'  697 |         msg.events[i].ts = msg.header.stamp + rclcpp::Duration(0, abs(data[i*2+1])\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[32.074437] (stonefish_ros2) StderrLine: {'line': b'      |                                                                                   \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[32.074501] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/basic_string.h:3669:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> constexpr std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::\x1b[01;32m\x1b[Koperator+\x1b[m\x1b[K(_CharT, __cxx11::basic_string<_CharT, _Traits, _Allocator>&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[32.074600] (stonefish_ros2) StderrLine: {'line': b' 3669 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(_CharT __lhs,\n'}
+[32.074719] (stonefish_ros2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[32.074788] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/basic_string.h:3669:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[32.074854] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/apenchu/hobi/ros2_ws/src/stonefish_ros2/src/stonefish_ros2/ROS2Interface.cpp:697:83:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Duration\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[32.074921] (stonefish_ros2) StderrLine: {'line': b'  697 |         msg.events[i].ts = msg.header.stamp + rclcpp::Duration(0, abs(data[i*2+1])\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[32.074992] (stonefish_ros2) StderrLine: {'line': b'      |                                                                                   \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[32.075118] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/basic_string.h:3676:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> constexpr std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::\x1b[01;32m\x1b[Koperator+\x1b[m\x1b[K(__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, const _CharT*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[32.075199] (stonefish_ros2) StderrLine: {'line': b' 3676 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,\n'}
+[32.075301] (stonefish_ros2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[32.075386] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/basic_string.h:3676:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[32.075452] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/apenchu/hobi/ros2_ws/src/stonefish_ros2/src/stonefish_ros2/ROS2Interface.cpp:697:83:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Header_<std::allocator<void> >::_stamp_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[32.075521] (stonefish_ros2) StderrLine: {'line': b'  697 |         msg.events[i].ts = msg.header.stamp + rclcpp::Duration(0, abs(data[i*2+1])\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[32.075585] (stonefish_ros2) StderrLine: {'line': b'      |                                                                                   \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[32.075688] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/basic_string.h:3683:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> constexpr std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::\x1b[01;32m\x1b[Koperator+\x1b[m\x1b[K(__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, _CharT)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[32.075760] (stonefish_ros2) StderrLine: {'line': b' 3683 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,\n'}
+[32.075825] (stonefish_ros2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[32.075889] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/basic_string.h:3683:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[32.075954] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/apenchu/hobi/ros2_ws/src/stonefish_ros2/src/stonefish_ros2/ROS2Interface.cpp:697:83:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Header_<std::allocator<void> >::_stamp_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[32.076031] (stonefish_ros2) StderrLine: {'line': b'  697 |         msg.events[i].ts = msg.header.stamp + rclcpp::Duration(0, abs(data[i*2+1])\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[32.076119] (stonefish_ros2) StderrLine: {'line': b'      |                                                                                   \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[32.076198] (stonefish_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:50\x1b[m\x1b[K,\n'}
+[32.076264] (stonefish_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/StdVector:14\x1b[m\x1b[K,\n'}
+[32.076328] (stonefish_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_cloud.h:45\x1b[m\x1b[K,\n'}
+[32.076396] (stonefish_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/apenchu/hobi/ros2_ws/src/stonefish_ros2/src/stonefish_ros2/ROS2Interface.cpp:42\x1b[m\x1b[K:\n'}
+[32.076508] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/complex:335:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr std::complex<_Tp> std::\x1b[01;32m\x1b[Koperator+\x1b[m\x1b[K(const complex<_Tp>&, const complex<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[32.076586] (stonefish_ros2) StderrLine: {'line': b'  335 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(const complex<_Tp>& __x, const complex<_Tp>& __y)\n'}
+[32.076652] (stonefish_ros2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[32.076714] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/complex:335:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[32.076779] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/apenchu/hobi/ros2_ws/src/stonefish_ros2/src/stonefish_ros2/ROS2Interface.cpp:697:83:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Header_<std::allocator<void> >::_stamp_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::complex<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[32.076846] (stonefish_ros2) StderrLine: {'line': b'  697 |         msg.events[i].ts = msg.header.stamp + rclcpp::Duration(0, abs(data[i*2+1])\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[32.076916] (stonefish_ros2) StderrLine: {'line': b'      |                                                                                   \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[32.076978] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/complex:344:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr std::complex<_Tp> std::\x1b[01;32m\x1b[Koperator+\x1b[m\x1b[K(const complex<_Tp>&, const _Tp&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[32.077049] (stonefish_ros2) StderrLine: {'line': b'  344 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(const complex<_Tp>& __x, const _Tp& __y)\n'}
+[32.077140] (stonefish_ros2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[32.077222] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/complex:344:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[32.077287] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/apenchu/hobi/ros2_ws/src/stonefish_ros2/src/stonefish_ros2/ROS2Interface.cpp:697:83:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Header_<std::allocator<void> >::_stamp_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::complex<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[32.077356] (stonefish_ros2) StderrLine: {'line': b'  697 |         msg.events[i].ts = msg.header.stamp + rclcpp::Duration(0, abs(data[i*2+1])\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[32.077422] (stonefish_ros2) StderrLine: {'line': b'      |                                                                                   \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[32.077487] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/complex:353:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr std::complex<_Tp> std::\x1b[01;32m\x1b[Koperator+\x1b[m\x1b[K(const _Tp&, const complex<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[32.077561] (stonefish_ros2) StderrLine: {'line': b'  353 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(const _Tp& __x, const complex<_Tp>& __y)\n'}
+[32.077627] (stonefish_ros2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[32.077691] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/complex:353:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[32.077756] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/apenchu/hobi/ros2_ws/src/stonefish_ros2/src/stonefish_ros2/ROS2Interface.cpp:697:83:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Duration\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::complex<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[32.077824] (stonefish_ros2) StderrLine: {'line': b'  697 |         msg.events[i].ts = msg.header.stamp + rclcpp::Duration(0, abs(data[i*2+1])\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[32.077888] (stonefish_ros2) StderrLine: {'line': b'      |                                                                                   \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[32.077953] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/complex:454:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr std::complex<_Tp> std::\x1b[01;32m\x1b[Koperator+\x1b[m\x1b[K(const complex<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[32.078020] (stonefish_ros2) StderrLine: {'line': b'  454 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(const complex<_Tp>& __x)\n'}
+[32.078099] (stonefish_ros2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[32.078177] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/complex:454:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[32.078251] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/apenchu/hobi/ros2_ws/src/stonefish_ros2/src/stonefish_ros2/ROS2Interface.cpp:697:83:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Header_<std::allocator<void> >::_stamp_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::complex<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[32.078327] (stonefish_ros2) StderrLine: {'line': b'  697 |         msg.events[i].ts = msg.header.stamp + rclcpp::Duration(0, abs(data[i*2+1])\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[32.078394] (stonefish_ros2) StderrLine: {'line': b'      |                                                                                   \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[32.078458] (stonefish_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/Stonefish/BulletCollision/CollisionDispatch/btCollisionWorld.h:77\x1b[m\x1b[K,\n'}
+[32.078525] (stonefish_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/Stonefish/btBulletCollisionCommon.h:22\x1b[m\x1b[K,\n'}
+[32.078601] (stonefish_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/Stonefish/btBulletDynamicsCommon.h:20\x1b[m\x1b[K,\n'}
+[32.078671] (stonefish_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/Stonefish/StonefishCommon.h:37\x1b[m\x1b[K,\n'}
+[32.078771] (stonefish_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/apenchu/hobi/ros2_ws/src/stonefish_ros2/include/stonefish_ros2/ROS2Interface.h:34\x1b[m\x1b[K:\n'}
+[32.078843] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/Stonefish/LinearMath/btVector3.h:754:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KbtVector3\x1b[01;32m\x1b[K operator+\x1b[m\x1b[K(const btVector3&, const btVector3&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[32.078914] (stonefish_ros2) StderrLine: {'line': b'  754 | \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(const btVector3& v1, const btVector3& v2)\n'}
+[32.078981] (stonefish_ros2) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[32.079047] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/Stonefish/LinearMath/btVector3.h:754:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Header_<std::allocator<void> >::_stamp_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst btVector3&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[32.079168] (stonefish_ros2) StderrLine: {'line': b'  754 | operator+(\x1b[01;36m\x1b[Kconst btVector3& v1\x1b[m\x1b[K, const btVector3& v2)\n'}
+[32.079239] (stonefish_ros2) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[32.079320] (stonefish_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/Stonefish/LinearMath/btTransform.h:18\x1b[m\x1b[K,\n'}
+[32.079386] (stonefish_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/Stonefish/BulletCollision/CollisionDispatch/btCollisionWorld.h:78\x1b[m\x1b[K:\n'}
+[32.079452] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/Stonefish/LinearMath/btMatrix3x3.h:952:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KbtMatrix3x3\x1b[01;32m\x1b[K operator+\x1b[m\x1b[K(const btMatrix3x3&, const btMatrix3x3&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[32.079610] (stonefish_ros2) StderrLine: {'line': b'  952 | \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(const btMatrix3x3& m1, const btMatrix3x3& m2)\n'}
+[32.079728] (stonefish_ros2) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[32.079838] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/Stonefish/LinearMath/btMatrix3x3.h:952:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Header_<std::allocator<void> >::_stamp_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst btMatrix3x3&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[32.079988] (stonefish_ros2) StderrLine: {'line': b'  952 | operator+(\x1b[01;36m\x1b[Kconst btMatrix3x3& m1\x1b[m\x1b[K, const btMatrix3x3& m2)\n'}
+[32.080120] (stonefish_ros2) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[32.080199] (stonefish_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/clock.hpp:24\x1b[m\x1b[K,\n'}
+[32.080266] (stonefish_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:27\x1b[m\x1b[K,\n'}
+[32.080332] (stonefish_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:30\x1b[m\x1b[K,\n'}
+[32.080397] (stonefish_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[32.080462] (stonefish_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[32.080538] (stonefish_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[32.080608] (stonefish_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[32.080672] (stonefish_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[32.080737] (stonefish_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[32.080802] (stonefish_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[32.080876] (stonefish_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K:\n'}
+[32.080943] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/time.hpp:223:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time rclcpp::\x1b[01;32m\x1b[Koperator+\x1b[m\x1b[K(const Duration&, const Time&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[32.081011] (stonefish_ros2) StderrLine: {'line': b'  223 | \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K+(const rclcpp::Duration & lhs, const rclcpp::Time & rhs);\n'}
+[32.081088] (stonefish_ros2) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[32.081169] (stonefish_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/time.hpp:223:36:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Header_<std::allocator<void> >::_stamp_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::Duration&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[32.081242] (stonefish_ros2) StderrLine: {'line': b'  223 | operator+(\x1b[01;36m\x1b[Kconst rclcpp::Duration & lhs\x1b[m\x1b[K, const rclcpp::Time & rhs);\n'}
+[32.081307] (stonefish_ros2) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[32.090237] (-) TimerEvent: {}
+[32.190532] (-) TimerEvent: {}
+[32.290885] (-) TimerEvent: {}
+[32.391229] (-) TimerEvent: {}
+[32.491640] (-) TimerEvent: {}
+[32.592053] (-) TimerEvent: {}
+[32.692424] (-) TimerEvent: {}
+[32.792761] (-) TimerEvent: {}
+[32.893054] (-) TimerEvent: {}
+[32.993445] (-) TimerEvent: {}
+[33.093865] (-) TimerEvent: {}
+[33.194314] (-) TimerEvent: {}
+[33.294771] (-) TimerEvent: {}
+[33.395160] (-) TimerEvent: {}
+[33.495477] (-) TimerEvent: {}
+[33.595789] (-) TimerEvent: {}
+[33.696124] (-) TimerEvent: {}
+[33.796459] (-) TimerEvent: {}
+[33.896767] (-) TimerEvent: {}
+[33.997029] (-) TimerEvent: {}
+[34.097314] (-) TimerEvent: {}
+[34.197638] (-) TimerEvent: {}
+[34.297947] (-) TimerEvent: {}
+[34.398222] (-) TimerEvent: {}
+[34.498784] (-) TimerEvent: {}
+[34.599427] (-) TimerEvent: {}
+[34.699773] (-) TimerEvent: {}
+[34.800142] (-) TimerEvent: {}
+[34.900520] (-) TimerEvent: {}
+[35.000830] (-) TimerEvent: {}
+[35.101144] (-) TimerEvent: {}
+[35.201530] (-) TimerEvent: {}
+[35.301960] (-) TimerEvent: {}
+[35.402571] (-) TimerEvent: {}
+[35.502903] (-) TimerEvent: {}
+[35.603309] (-) TimerEvent: {}
+[35.703698] (-) TimerEvent: {}
+[35.804194] (-) TimerEvent: {}
+[35.904654] (-) TimerEvent: {}
+[35.934500] (stonefish_ros2) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/stonefish_ros2_interface.dir/build.make:132: CMakeFiles/stonefish_ros2_interface.dir/src/stonefish_ros2/ROS2Interface.cpp.o] Error 1\n'}
+[35.934693] (stonefish_ros2) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[36.004783] (-) TimerEvent: {}
+[36.105259] (-) TimerEvent: {}
+[36.205682] (-) TimerEvent: {}
+[36.305994] (-) TimerEvent: {}
+[36.406256] (-) TimerEvent: {}
+[36.506556] (-) TimerEvent: {}
+[36.606877] (-) TimerEvent: {}
+[36.707282] (-) TimerEvent: {}
+[36.807633] (-) TimerEvent: {}
+[36.907995] (-) TimerEvent: {}
+[37.008329] (-) TimerEvent: {}
+[37.108569] (-) TimerEvent: {}
+[37.208854] (-) TimerEvent: {}
+[37.309156] (-) TimerEvent: {}
+[37.409456] (-) TimerEvent: {}
+[37.509700] (-) TimerEvent: {}
+[37.610005] (-) TimerEvent: {}
+[37.710269] (-) TimerEvent: {}
+[37.810548] (-) TimerEvent: {}
+[37.910839] (-) TimerEvent: {}
+[38.011119] (-) TimerEvent: {}
+[38.111639] (-) TimerEvent: {}
+[38.211983] (-) TimerEvent: {}
+[38.312328] (-) TimerEvent: {}
+[38.412677] (-) TimerEvent: {}
+[38.512989] (-) TimerEvent: {}
+[38.613296] (-) TimerEvent: {}
+[38.713623] (-) TimerEvent: {}
+[38.814250] (-) TimerEvent: {}
+[38.915314] (-) TimerEvent: {}
+[39.015706] (-) TimerEvent: {}
+[39.116003] (-) TimerEvent: {}
+[39.216261] (-) TimerEvent: {}
+[39.316539] (-) TimerEvent: {}
+[39.416811] (-) TimerEvent: {}
+[39.517097] (-) TimerEvent: {}
+[39.617427] (-) TimerEvent: {}
+[39.717857] (-) TimerEvent: {}
+[39.818170] (-) TimerEvent: {}
+[39.918478] (-) TimerEvent: {}
+[40.018733] (-) TimerEvent: {}
+[40.119025] (-) TimerEvent: {}
+[40.219304] (-) TimerEvent: {}
+[40.319576] (-) TimerEvent: {}
+[40.419861] (-) TimerEvent: {}
+[40.520144] (-) TimerEvent: {}
+[40.620795] (-) TimerEvent: {}
+[40.721185] (-) TimerEvent: {}
+[40.821499] (-) TimerEvent: {}
+[40.921815] (-) TimerEvent: {}
+[41.022150] (-) TimerEvent: {}
+[41.122398] (-) TimerEvent: {}
+[41.222724] (-) TimerEvent: {}
+[41.323038] (-) TimerEvent: {}
+[41.423491] (-) TimerEvent: {}
+[41.523820] (-) TimerEvent: {}
+[41.624148] (-) TimerEvent: {}
+[41.724491] (-) TimerEvent: {}
+[41.824804] (-) TimerEvent: {}
+[41.925217] (-) TimerEvent: {}
+[42.025770] (-) TimerEvent: {}
+[42.126118] (-) TimerEvent: {}
+[42.226436] (-) TimerEvent: {}
+[42.326839] (-) TimerEvent: {}
+[42.427193] (-) TimerEvent: {}
+[42.527508] (-) TimerEvent: {}
+[42.627857] (-) TimerEvent: {}
+[42.728184] (-) TimerEvent: {}
+[42.828469] (-) TimerEvent: {}
+[42.928777] (-) TimerEvent: {}
+[43.029218] (-) TimerEvent: {}
+[43.129523] (-) TimerEvent: {}
+[43.229807] (-) TimerEvent: {}
+[43.330119] (-) TimerEvent: {}
+[43.430378] (-) TimerEvent: {}
+[43.530684] (-) TimerEvent: {}
+[43.631018] (-) TimerEvent: {}
+[43.731283] (-) TimerEvent: {}
+[43.831614] (-) TimerEvent: {}
+[43.931948] (-) TimerEvent: {}
+[44.032354] (-) TimerEvent: {}
+[44.132722] (-) TimerEvent: {}
+[44.233040] (-) TimerEvent: {}
+[44.333310] (-) TimerEvent: {}
+[44.433566] (-) TimerEvent: {}
+[44.533873] (-) TimerEvent: {}
+[44.634122] (-) TimerEvent: {}
+[44.734415] (-) TimerEvent: {}
+[44.834712] (-) TimerEvent: {}
+[44.935025] (-) TimerEvent: {}
+[45.035279] (-) TimerEvent: {}
+[45.135536] (-) TimerEvent: {}
+[45.235860] (-) TimerEvent: {}
+[45.336173] (-) TimerEvent: {}
+[45.436497] (-) TimerEvent: {}
+[45.536815] (-) TimerEvent: {}
+[45.637173] (-) TimerEvent: {}
+[45.737461] (-) TimerEvent: {}
+[45.837760] (-) TimerEvent: {}
+[45.938032] (-) TimerEvent: {}
+[46.038356] (-) TimerEvent: {}
+[46.138712] (-) TimerEvent: {}
+[46.239101] (-) TimerEvent: {}
+[46.339482] (-) TimerEvent: {}
+[46.442378] (-) TimerEvent: {}
+[46.542733] (-) TimerEvent: {}
+[46.643121] (-) TimerEvent: {}
+[46.743748] (-) TimerEvent: {}
+[46.844234] (-) TimerEvent: {}
+[46.944531] (-) TimerEvent: {}
+[47.044767] (-) TimerEvent: {}
+[47.145082] (-) TimerEvent: {}
+[47.245317] (-) TimerEvent: {}
+[47.345562] (-) TimerEvent: {}
+[47.445864] (-) TimerEvent: {}
+[47.546197] (-) TimerEvent: {}
+[47.646491] (-) TimerEvent: {}
+[47.746750] (-) TimerEvent: {}
+[47.847086] (-) TimerEvent: {}
+[47.947333] (-) TimerEvent: {}
+[48.047671] (-) TimerEvent: {}
+[48.147920] (-) TimerEvent: {}
+[48.248128] (-) TimerEvent: {}
+[48.348373] (-) TimerEvent: {}
+[48.448643] (-) TimerEvent: {}
+[48.548907] (-) TimerEvent: {}
+[48.649128] (-) TimerEvent: {}
+[48.749384] (-) TimerEvent: {}
+[48.849646] (-) TimerEvent: {}
+[48.949910] (-) TimerEvent: {}
+[49.050198] (-) TimerEvent: {}
+[49.150468] (-) TimerEvent: {}
+[49.250741] (-) TimerEvent: {}
+[49.351011] (-) TimerEvent: {}
+[49.451263] (-) TimerEvent: {}
+[49.551534] (-) TimerEvent: {}
+[49.651801] (-) TimerEvent: {}
+[49.752097] (-) TimerEvent: {}
+[49.852328] (-) TimerEvent: {}
+[49.952608] (-) TimerEvent: {}
+[50.052882] (-) TimerEvent: {}
+[50.153157] (-) TimerEvent: {}
+[50.253445] (-) TimerEvent: {}
+[50.353717] (-) TimerEvent: {}
+[50.453947] (-) TimerEvent: {}
+[50.554204] (-) TimerEvent: {}
+[50.654481] (-) TimerEvent: {}
+[50.754778] (-) TimerEvent: {}
+[50.855018] (-) TimerEvent: {}
+[50.955310] (-) TimerEvent: {}
+[51.055625] (-) TimerEvent: {}
+[51.155950] (-) TimerEvent: {}
+[51.256212] (-) TimerEvent: {}
+[51.356592] (-) TimerEvent: {}
+[51.456880] (-) TimerEvent: {}
+[51.557194] (-) TimerEvent: {}
+[51.657458] (-) TimerEvent: {}
+[51.757724] (-) TimerEvent: {}
+[51.857975] (-) TimerEvent: {}
+[51.958206] (-) TimerEvent: {}
+[52.058487] (-) TimerEvent: {}
+[52.158848] (-) TimerEvent: {}
+[52.259127] (-) TimerEvent: {}
+[52.359360] (-) TimerEvent: {}
+[52.459586] (-) TimerEvent: {}
+[52.559869] (-) TimerEvent: {}
+[52.660138] (-) TimerEvent: {}
+[52.760366] (-) TimerEvent: {}
+[52.860633] (-) TimerEvent: {}
+[52.960864] (-) TimerEvent: {}
+[53.061202] (-) TimerEvent: {}
+[53.161482] (-) TimerEvent: {}
+[53.261758] (-) TimerEvent: {}
+[53.361990] (-) TimerEvent: {}
+[53.462241] (-) TimerEvent: {}
+[53.562641] (-) TimerEvent: {}
+[53.662972] (-) TimerEvent: {}
+[53.763376] (-) TimerEvent: {}
+[53.863761] (-) TimerEvent: {}
+[53.964055] (-) TimerEvent: {}
+[54.064326] (-) TimerEvent: {}
+[54.164558] (-) TimerEvent: {}
+[54.264968] (-) TimerEvent: {}
+[54.365606] (-) TimerEvent: {}
+[54.465888] (-) TimerEvent: {}
+[54.566131] (-) TimerEvent: {}
+[54.666398] (-) TimerEvent: {}
+[54.766765] (-) TimerEvent: {}
+[54.867052] (-) TimerEvent: {}
+[54.967415] (-) TimerEvent: {}
+[55.067674] (-) TimerEvent: {}
+[55.167913] (-) TimerEvent: {}
+[55.268204] (-) TimerEvent: {}
+[55.368460] (-) TimerEvent: {}
+[55.468726] (-) TimerEvent: {}
+[55.569002] (-) TimerEvent: {}
+[55.669244] (-) TimerEvent: {}
+[55.769527] (-) TimerEvent: {}
+[55.869801] (-) TimerEvent: {}
+[55.970035] (-) TimerEvent: {}
+[56.070286] (-) TimerEvent: {}
+[56.170613] (-) TimerEvent: {}
+[56.270930] (-) TimerEvent: {}
+[56.371201] (-) TimerEvent: {}
+[56.471465] (-) TimerEvent: {}
+[56.571755] (-) TimerEvent: {}
+[56.672043] (-) TimerEvent: {}
+[56.772295] (-) TimerEvent: {}
+[56.872543] (-) TimerEvent: {}
+[56.972812] (-) TimerEvent: {}
+[57.073066] (-) TimerEvent: {}
+[57.173320] (-) TimerEvent: {}
+[57.273580] (-) TimerEvent: {}
+[57.373896] (-) TimerEvent: {}
+[57.474195] (-) TimerEvent: {}
+[57.574503] (-) TimerEvent: {}
+[57.674795] (-) TimerEvent: {}
+[57.775086] (-) TimerEvent: {}
+[57.875347] (-) TimerEvent: {}
+[57.975613] (-) TimerEvent: {}
+[58.075911] (-) TimerEvent: {}
+[58.176216] (-) TimerEvent: {}
+[58.276452] (-) TimerEvent: {}
+[58.376751] (-) TimerEvent: {}
+[58.476992] (-) TimerEvent: {}
+[58.577309] (-) TimerEvent: {}
+[58.677641] (-) TimerEvent: {}
+[58.777971] (-) TimerEvent: {}
+[58.878343] (-) TimerEvent: {}
+[58.978599] (-) TimerEvent: {}
+[59.078874] (-) TimerEvent: {}
+[59.179155] (-) TimerEvent: {}
+[59.279414] (-) TimerEvent: {}
+[59.379660] (-) TimerEvent: {}
+[59.480146] (-) TimerEvent: {}
+[59.581045] (-) TimerEvent: {}
+[59.681303] (-) TimerEvent: {}
+[59.781613] (-) TimerEvent: {}
+[59.881837] (-) TimerEvent: {}
+[59.982112] (-) TimerEvent: {}
+[60.082337] (-) TimerEvent: {}
+[60.182635] (-) TimerEvent: {}
+[60.282902] (-) TimerEvent: {}
+[60.383162] (-) TimerEvent: {}
+[60.483458] (-) TimerEvent: {}
+[60.583730] (-) TimerEvent: {}
+[60.683954] (-) TimerEvent: {}
+[60.784210] (-) TimerEvent: {}
+[60.884438] (-) TimerEvent: {}
+[60.984719] (-) TimerEvent: {}
+[61.084991] (-) TimerEvent: {}
+[61.185196] (-) TimerEvent: {}
+[61.285426] (-) TimerEvent: {}
+[61.385698] (-) TimerEvent: {}
+[61.485979] (-) TimerEvent: {}
+[61.586278] (-) TimerEvent: {}
+[61.686569] (-) TimerEvent: {}
+[61.786878] (-) TimerEvent: {}
+[61.887376] (-) TimerEvent: {}
+[61.988279] (-) TimerEvent: {}
+[62.088673] (-) TimerEvent: {}
+[62.189046] (-) TimerEvent: {}
+[62.289613] (-) TimerEvent: {}
+[62.389910] (-) TimerEvent: {}
+[62.490196] (-) TimerEvent: {}
+[62.590488] (-) TimerEvent: {}
+[62.690728] (-) TimerEvent: {}
+[62.790998] (-) TimerEvent: {}
+[62.891249] (-) TimerEvent: {}
+[62.991519] (-) TimerEvent: {}
+[63.091767] (-) TimerEvent: {}
+[63.192052] (-) TimerEvent: {}
+[63.292305] (-) TimerEvent: {}
+[63.392604] (-) TimerEvent: {}
+[63.492924] (-) TimerEvent: {}
+[63.593205] (-) TimerEvent: {}
+[63.693437] (-) TimerEvent: {}
+[63.793729] (-) TimerEvent: {}
+[63.894000] (-) TimerEvent: {}
+[63.994251] (-) TimerEvent: {}
+[64.094545] (-) TimerEvent: {}
+[64.194964] (-) TimerEvent: {}
+[64.295353] (-) TimerEvent: {}
+[64.395655] (-) TimerEvent: {}
+[64.495982] (-) TimerEvent: {}
+[64.596192] (-) TimerEvent: {}
+[64.696464] (-) TimerEvent: {}
+[64.796830] (-) TimerEvent: {}
+[64.897180] (-) TimerEvent: {}
+[64.997514] (-) TimerEvent: {}
+[65.097819] (-) TimerEvent: {}
+[65.199197] (-) TimerEvent: {}
+[65.299663] (-) TimerEvent: {}
+[65.400113] (-) TimerEvent: {}
+[65.500387] (-) TimerEvent: {}
+[65.509899] (stonefish_ros2) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:597: CMakeFiles/stonefish_ros2_interface.dir/all] Error 2\n'}
+[65.510156] (stonefish_ros2) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[65.512862] (stonefish_ros2) CommandEnded: {'returncode': 2}
+[65.526899] (stonefish_ros2) JobEnded: {'identifier': 'stonefish_ros2', 'rc': 2}
+[65.537447] (-) EventReactorShutdown: {}

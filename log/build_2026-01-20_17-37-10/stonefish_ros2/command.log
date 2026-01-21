@@ -1,0 +1,4 @@
+Invoking command in '/home/apenchu/hobi/ros2_ws/src/build/stonefish_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/apenchu/hobi/ros2_ws/src/stonefish_ros2 -DCMAKE_INSTALL_PREFIX=/home/apenchu/hobi/ros2_ws/src/install/stonefish_ros2
+Invoked command in '/home/apenchu/hobi/ros2_ws/src/build/stonefish_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/apenchu/hobi/ros2_ws/src/stonefish_ros2 -DCMAKE_INSTALL_PREFIX=/home/apenchu/hobi/ros2_ws/src/install/stonefish_ros2
+Invoking command in '/home/apenchu/hobi/ros2_ws/src/build/stonefish_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/apenchu/hobi/ros2_ws/src/build/stonefish_ros2 -- -j8 -l8
+Invoked command in '/home/apenchu/hobi/ros2_ws/src/build/stonefish_ros2' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/apenchu/hobi/ros2_ws/src/build/stonefish_ros2 -- -j8 -l8
