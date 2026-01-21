@@ -1,0 +1,223 @@
+[0.015s] Invoking command in '/home/apenchu/hobi/ros2_ws/src/build/stonefish_bluerov2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/apenchu/hobi/ros2_ws/src/stonefish_bluerov2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2
+[0.231s] -- The C compiler identification is GNU 13.1.0
+[0.357s] -- The CXX compiler identification is GNU 13.1.0
+[0.376s] -- Detecting C compiler ABI info
+[0.513s] -- Detecting C compiler ABI info - done
+[0.529s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.530s] -- Detecting C compile features
+[0.532s] -- Detecting C compile features - done
+[0.539s] -- Detecting CXX compiler ABI info
+[0.704s] -- Detecting CXX compiler ABI info - done
+[0.721s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.722s] -- Detecting CXX compile features
+[0.723s] -- Detecting CXX compile features - done
+[0.731s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.024s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.245s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.298s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[1.378s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.385s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.403s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.473s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.504s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.680s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.685s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.916s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.974s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.069s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.088s] -- Looking for pthread.h
+[2.248s] -- Looking for pthread.h - found
+[2.248s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.407s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.409s] -- Found Threads: TRUE  
+[2.527s] -- Found rclpy: 3.3.19 (/opt/ros/humble/share/rclpy/cmake)
+[2.876s] -- Configuring done
+[2.886s] -- Generating done
+[2.892s] -- Build files have been written to: /home/apenchu/hobi/ros2_ws/src/build/stonefish_bluerov2
+[2.915s] Invoked command in '/home/apenchu/hobi/ros2_ws/src/build/stonefish_bluerov2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/apenchu/hobi/ros2_ws/src/stonefish_bluerov2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2
+[2.920s] Invoking command in '/home/apenchu/hobi/ros2_ws/src/build/stonefish_bluerov2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/apenchu/hobi/ros2_ws/src/build/stonefish_bluerov2 -- -j8 -l8
+[3.041s] Built target ament_cmake_python_symlink_stonefish_bluerov2
+[3.619s] running egg_info
+[3.621s] creating stonefish_bluerov2.egg-info
+[3.621s] writing stonefish_bluerov2.egg-info/PKG-INFO
+[3.622s] writing dependency_links to stonefish_bluerov2.egg-info/dependency_links.txt
+[3.622s] writing top-level names to stonefish_bluerov2.egg-info/top_level.txt
+[3.623s] writing manifest file 'stonefish_bluerov2.egg-info/SOURCES.txt'
+[3.627s] reading manifest file 'stonefish_bluerov2.egg-info/SOURCES.txt'
+[3.629s] writing manifest file 'stonefish_bluerov2.egg-info/SOURCES.txt'
+[3.692s] Built target ament_cmake_python_build_stonefish_bluerov2_egg
+[3.718s] Invoked command in '/home/apenchu/hobi/ros2_ws/src/build/stonefish_bluerov2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/apenchu/hobi/ros2_ws/src/build/stonefish_bluerov2 -- -j8 -l8
+[3.738s] Invoking command in '/home/apenchu/hobi/ros2_ws/src/build/stonefish_bluerov2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/apenchu/hobi/ros2_ws/src/build/stonefish_bluerov2
+[3.755s] -- Install configuration: ""
+[3.755s] -- Execute custom install script
+[3.756s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2/environment/pythonpath.sh
+[3.772s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2/environment/pythonpath.dsv
+[3.790s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/local/lib/python3.10/dist-packages/stonefish_bluerov2-0.0.0-py3.10.egg-info/PKG-INFO
+[3.813s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/local/lib/python3.10/dist-packages/stonefish_bluerov2-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.830s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/local/lib/python3.10/dist-packages/stonefish_bluerov2-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.850s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/local/lib/python3.10/dist-packages/stonefish_bluerov2-0.0.0-py3.10.egg-info/top_level.txt
+[3.868s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/local/lib/python3.10/dist-packages/stonefish_bluerov2/__init__.py
+[3.884s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/lib/stonefish_bluerov2/ardusim_patch.py
+[3.901s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/lib/stonefish_bluerov2/view_camera.py
+[3.922s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//launch/blueboat_sim.py
+[3.939s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//launch/bluerov2_sim.py
+[3.957s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//launch/bluesim.py
+[3.978s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//scenarios/blueboat.scn
+[3.996s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//scenarios/blueboat_sea.scn
+[4.018s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//scenarios/bluerov2.scn
+[4.036s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//scenarios/bluerov2_farm.scn
+[4.053s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//scenarios/bluerov2_tank.scn
+[4.072s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//scenarios/bluerov2_test.scn
+[4.088s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//scenarios/bluerov2_turbine.scn
+[4.106s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//scenarios/bluesim.scn
+[4.123s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//scenarios/sonobot.scn
+[4.145s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//scenarios/turbine1.scn
+[4.161s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//scenarios/turbine2.scn
+[4.183s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/SoilBeach0078_1_350.jpg
+[4.202s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/anodes/anode.obj
+[4.219s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/anodes/anode_d.png
+[4.240s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/bluerov2.urdf
+[4.256s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/bluerov2/bluerov2.obj
+[4.275s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/bluerov2/bluerov2_phy.mtl
+[4.292s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/bluerov2/bluerov2_phy.obj
+[4.316s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/bluerov2/bluerov2_ring.obj
+[4.332s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/bluerov2/bluerov2_wings.obj
+[4.351s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/bluerov2/br2.obj
+[4.367s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/bluerov2/br2.png
+[4.386s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/bluerov2/ccw.obj
+[4.406s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/bluerov2/cw.obj
+[4.422s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/flat.mtl
+[4.441s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/flat.obj
+[4.457s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/girona500/antenna.obj
+[4.477s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/girona500/antenna_phy.obj
+[4.496s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/girona500/duct.obj
+[4.516s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/girona500/duct_phy.obj
+[4.533s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/girona500/duct_tex.png
+[4.553s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/girona500/hull.obj
+[4.570s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/girona500/hull_phy.obj
+[4.589s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/girona500/hull_phy2.obj
+[4.608s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/girona500/lower_hull.obj
+[4.625s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/girona500/lower_hull_tex.png
+[4.641s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/girona500/propeller.obj
+[4.659s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/girona500/propeller_ccw.mtl
+[4.676s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/girona500/propeller_ccw.obj
+[4.698s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/girona500/propeller_tex.png
+[4.718s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/girona500/tbar_back.obj
+[4.734s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/girona500/tbar_back_tex.png
+[4.752s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/girona500/tbar_front.obj
+[4.770s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/girona500/tbar_front_tex.png
+[4.789s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/girona500/tbar_phy.obj
+[4.808s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/girona500/upper_hull.obj
+[4.825s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/girona500/upper_hull_tex.png
+[4.845s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/models/C_Metal.png
+[4.859s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/models/Turbine.dae
+[4.877s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/models/Turbine.mtl
+[4.894s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/models/Turbine.obj
+[4.912s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/models/Turbine.stl
+[4.932s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/models/WindTurbine.obj
+[4.952s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/models/gas_canister.obj
+[4.969s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/models/gas_canister.png
+[4.991s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/models/gas_tank.obj
+[5.008s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/models/gas_tank.png
+[5.027s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/models/oil_drum.mtl
+[5.048s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/models/oil_drum.obj
+[5.064s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/models/oil_drum.png
+[5.081s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/models/rust_pipe.mtl
+[5.098s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/models/rust_pipe.obj
+[5.117s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/models/rust_pipe.png
+[5.135s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/models/windturbintexture.png
+[5.154s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/front_metal.mtl
+[5.176s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/front_metal.obj
+[5.195s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/front_metal_or.mtl
+[5.219s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/front_metal_or.obj
+[5.237s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/left.mtl
+[5.255s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/left.obj
+[5.274s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/left_rear_or.mtl
+[5.291s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/left_rear_or.obj
+[5.309s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/left_side.mtl
+[5.331s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/left_side.obj
+[5.348s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/left_side2.mtl
+[5.366s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/left_side2.obj
+[5.382s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/left_side_or.mtl
+[5.401s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/left_side_or.obj
+[5.420s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/leftside_F.mtl
+[5.439s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/leftside_F.obj
+[5.456s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/leftside_F1.mtl
+[5.479s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/leftside_F1.obj
+[5.496s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/leftside_back.mtl
+[5.514s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/leftside_back.obj
+[5.531s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/metal.mtl
+[5.549s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/metal.obj
+[5.567s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/metal_fron.mtl
+[5.583s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/metal_fron.obj
+[5.601s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/metal_front.mtl
+[5.619s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/metal_front.obj
+[5.637s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/metal_rear.mtl
+[5.653s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/metal_rear.obj
+[5.672s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/metal_rear_tube.mtl
+[5.690s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/metal_rear_tube.obj
+[5.710s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/propeller.obj
+[5.729s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/propeller2.obj
+[5.749s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/propeller_cc.obj
+[5.767s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/rear_metal.mtl
+[5.786s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/rear_metal.obj
+[5.803s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/right_rear_or.mtl
+[5.822s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/right_rear_or.obj
+[5.841s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/right_side.mtl
+[5.858s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/right_side.obj
+[5.877s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/right_side_or.mtl
+[5.894s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/right_side_or.obj
+[5.915s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/rightside_F.mtl
+[5.930s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/rightside_F.obj
+[5.950s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/rightside_F1.mtl
+[5.967s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/rightside_F1.obj
+[5.988s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/rightside_back.mtl
+[6.005s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/rightside_back.obj
+[6.024s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/seabed.mtl
+[6.045s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/seabed.obj
+[6.062s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/sonobot/sonobot.obj
+[6.081s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/sonobot/sonobot.png
+[6.097s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/sonobot/sonobot_top.obj
+[6.117s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/turbines/source/WindTurbine_02_Anim.fbx
+[6.136s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/turbines/textures/Turbine_Alpha_DiffuseOpacity.png
+[6.156s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/turbines/textures/Turbine_Alpha_Metalic.png
+[6.175s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/turbines/textures/Turbine_Alpha_Normal.png
+[6.193s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/turbines/textures/Turbine_Alpha_Roughness.png
+[6.211s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/turbines/textures/Turbine_Base_AO.png
+[6.230s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/turbines/textures/Turbine_Base_Diffuse.png
+[6.250s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/turbines/textures/Turbine_Base_Metalic.png
+[6.265s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/turbines/textures/Turbine_Base_Normal.png
+[6.288s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/turbines/textures/Turbine_Base_Roughness.png
+[6.307s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/turbines/textures/Turbine_Main_AO.png
+[6.326s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/turbines/textures/Turbine_Main_Diffuse.png
+[6.348s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/turbines/textures/Turbine_Main_Metalic.png
+[6.365s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/turbines/textures/Turbine_Main_Normal.png
+[6.382s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/turbines/textures/Turbine_Main_Roughness.png
+[6.400s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/turbines/turbine1.blend
+[6.418s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/turbines/turbine1_base.obj
+[6.433s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/turbines/turbine2.blend
+[6.452s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/turbines/turbine2.blend1
+[6.469s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/turbines/turbine2.obj
+[6.488s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/turbines/turbine2_base.obj
+[6.504s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/turbines/turbine2_main.obj
+[6.525s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/turbines/turbines.blend
+[6.542s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/wavetank.obj
+[6.563s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/wavetank_floor.obj
+[6.585s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/ament_index/resource_index/package_run_dependencies/stonefish_bluerov2
+[6.603s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/ament_index/resource_index/parent_prefix_path/stonefish_bluerov2
+[6.622s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2/environment/ament_prefix_path.sh
+[6.640s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2/environment/ament_prefix_path.dsv
+[6.658s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2/environment/path.sh
+[6.676s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2/environment/path.dsv
+[6.694s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2/local_setup.bash
+[6.712s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2/local_setup.sh
+[6.731s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2/local_setup.zsh
+[6.751s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2/local_setup.dsv
+[6.767s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2/package.dsv
+[6.786s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/ament_index/resource_index/packages/stonefish_bluerov2
+[6.806s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2/cmake/stonefish_bluerov2Config.cmake
+[6.823s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2/cmake/stonefish_bluerov2Config-version.cmake
+[6.840s] -- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2/package.xml
+[6.933s] Listing '/home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/local/lib/python3.10/dist-packages/stonefish_bluerov2'...
+[6.934s] Compiling '/home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/local/lib/python3.10/dist-packages/stonefish_bluerov2/__init__.py'...
+[6.951s] Invoked command in '/home/apenchu/hobi/ros2_ws/src/build/stonefish_bluerov2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/apenchu/hobi/ros2_ws/src/build/stonefish_bluerov2

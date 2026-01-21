@@ -1,0 +1,302 @@
+[0.000000] (-) TimerEvent: {}
+[0.000536] (-) JobUnselected: {'identifier': 'stonefish_ros2'}
+[0.000577] (stonefish_bluerov2) JobQueued: {'identifier': 'stonefish_bluerov2', 'dependencies': OrderedDict()}
+[0.000607] (stonefish_bluerov2) JobStarted: {'identifier': 'stonefish_bluerov2'}
+[0.011840] (stonefish_bluerov2) JobProgress: {'identifier': 'stonefish_bluerov2', 'progress': 'cmake'}
+[0.012470] (stonefish_bluerov2) Command: {'cmd': ['/usr/bin/cmake', '/home/apenchu/hobi/ros2_ws/src/stonefish_bluerov2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2'], 'cwd': '/home/apenchu/hobi/ros2_ws/src/build/stonefish_bluerov2', 'env': OrderedDict([('LESS_TERMCAP_se', '\x1b[0m'), ('HISTFILESIZE', '10000'), ('HISTTIMEFORMAT', '%F %T'), ('WARP_HONOR_PS1', '1'), ('USER', 'apenchu'), ('LESS_TERMCAP_ue', '\x1b[0m'), ('LC_TIME', 'id_ID.UTF-8'), ('NODE_FUNCTION_ALLOW_EXTERNAL', 'child_process'), ('STARSHIP_SHELL', 'bash'), ('XDG_SESSION_TYPE', 'wayland'), ('XDG_CACHE_HOME', '/home/apenchu/.cache'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/apenchu/hobi/ros2_ws/install/stonefish_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/apenchu'), ('OLDPWD', '/home/apenchu/hobi/ros2_ws'), ('TERM_PROGRAM_VERSION', 'v0.2025.12.17.17.17.stable_02'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/apenchu/.config/nvm/versions/node/v24.12.0/bin'), ('NVM_INC', '/home/apenchu/.config/nvm/versions/node/v24.12.0/include/node'), ('WARP_USE_SSH_WRAPPER', '1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/apenchu/.config/autostart/ulauncher.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LESS_TERMCAP_so', '\x1b[01;44;33m'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '962'), ('SYSTEMD_EXEC_PID', '1349'), ('IM_CONFIG_CHECK_ENV', '1'), ('LINUXTOOLBOXDIR', '/home/apenchu/linuxtoolbox'), ('VISUAL', 'nvim'), ('XDG_STATE_HOME', '/home/apenchu/.local/state'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1772'), ('NVM_DIR', '/home/apenchu/.config/nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/apenchu/hobi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'apenchu'), ('LESS_TERMCAP_us', '\x1b[01;32m'), ('DESKTOP_AUTOSTART_ID', '10855bab014fcd4b3176898399446678100000013490017'), ('JOURNAL_STREAM', '8:11634'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'apenchu'), ('SSH_SOCKET_DIR', '~/.ssh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WARP_IS_LOCAL_SHELL_SESSION', '1'), ('HISTCONTROL', 'erasedups:ignoredups:ignorespace'), ('PATH', '/home/apenchu/.local/bin:/home/apenchu/.local/bin:/home/apenchu/.local/bin:/home/apenchu/.local/bin:/opt/ros/humble/bin:/home/apenchu/.config/nvm/versions/node/v24.12.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/apenchu/.local/bin:/home/apenchu/.cargo/bin:/var/lib/flatpak/exports/bin:/.local/share/flatpak/exports/bin:/home/apenchu/hobi/ardupilot/Tools/autotest:/home/apenchu/.local/bin:/home/apenchu/.local/bin:/home/apenchu/.cargo/bin:/var/lib/flatpak/exports/bin:/.local/share/flatpak/exports/bin:/home/apenchu/hobi/ardupilot/Tools/autotest:/home/apenchu/.local/bin'), ('SESSION_MANAGER', 'local/apenchu-ThinkPad-T480:@/tmp/.ICE-unix/1349,unix/apenchu-ThinkPad-T480:/tmp/.ICE-unix/1349'), ('INVOCATION_ID', 'fde0bee2a6244cbcacc30ee444bba753'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('HISTSIZE', '500'), ('WARP_PATH_APPEND', ''), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XDG_DATA_HOME', '/home/apenchu/.local/share'), ('XDG_CONFIG_HOME', '/home/apenchu/.config'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Y65LJ3'), ('LS_COLORS', 'no=00:fi=00:di=00;34:ln=01;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.gz=01;31:*.bz2=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.avi=01;35:*.fli=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.ogg=01;35:*.mp3=01;35:*.wav=01;35:*.xml=00;31:'), ('TERM_PROGRAM', 'WarpTerminal'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/apenchu/hobi/ros2_ws/install/stonefish_ros2:/home/apenchu/hobi/ros2_ws/install/stonefish_bluerov2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESS_TERMCAP_mb', '\x1b[01;31m'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('LESS_TERMCAP_md', '\x1b[01;31m'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/apenchu/hobi/ros2_ws/src/build/stonefish_bluerov2'), ('CLICOLOR', '1'), ('LESS_TERMCAP_me', '\x1b[0m'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/apenchu/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('STARSHIP_SESSION_KEY', '2491017537966114'), ('PYTHONPATH', '/home/apenchu/hobi/ros2_ws/install/stonefish_ros2/local/lib/python3.10/dist-packages:/home/apenchu/hobi/ros2_ws/install/stonefish_bluerov2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('EDITOR', 'nvim'), ('CMAKE_PREFIX_PATH', '/home/apenchu/hobi/ros2_ws/install/stonefish_ros2:/home/apenchu/hobi/ros2_ws/install/stonefish_bluerov2:/opt/ros/humble')]), 'shell': False}
+[0.099952] (-) TimerEvent: {}
+[0.200667] (-) TimerEvent: {}
+[0.231112] (stonefish_bluerov2) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.1.0\n'}
+[0.300810] (-) TimerEvent: {}
+[0.357813] (stonefish_bluerov2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.1.0\n'}
+[0.376022] (stonefish_bluerov2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400955] (-) TimerEvent: {}
+[0.501310] (-) TimerEvent: {}
+[0.512927] (stonefish_bluerov2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.529667] (stonefish_bluerov2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.530371] (stonefish_bluerov2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.531970] (stonefish_bluerov2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.539515] (stonefish_bluerov2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.601420] (-) TimerEvent: {}
+[0.701843] (-) TimerEvent: {}
+[0.704408] (stonefish_bluerov2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.721855] (stonefish_bluerov2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.722337] (stonefish_bluerov2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.723142] (stonefish_bluerov2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.731421] (stonefish_bluerov2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.801917] (-) TimerEvent: {}
+[0.902176] (-) TimerEvent: {}
+[1.002433] (-) TimerEvent: {}
+[1.024277] (stonefish_bluerov2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.102672] (-) TimerEvent: {}
+[1.203279] (-) TimerEvent: {}
+[1.245313] (stonefish_bluerov2) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.298886] (stonefish_bluerov2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.303398] (-) TimerEvent: {}
+[1.378638] (stonefish_bluerov2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.385598] (stonefish_bluerov2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.403173] (stonefish_bluerov2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.403421] (-) TimerEvent: {}
+[1.472475] (stonefish_bluerov2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.503603] (-) TimerEvent: {}
+[1.504973] (stonefish_bluerov2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.603755] (-) TimerEvent: {}
+[1.680090] (stonefish_bluerov2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.685652] (stonefish_bluerov2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.703900] (-) TimerEvent: {}
+[1.804278] (-) TimerEvent: {}
+[1.904919] (-) TimerEvent: {}
+[1.916624] (stonefish_bluerov2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.974654] (stonefish_bluerov2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.004975] (-) TimerEvent: {}
+[2.069159] (stonefish_bluerov2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.088676] (stonefish_bluerov2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.105103] (-) TimerEvent: {}
+[2.205453] (-) TimerEvent: {}
+[2.248205] (stonefish_bluerov2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.248688] (stonefish_bluerov2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.305589] (-) TimerEvent: {}
+[2.405928] (-) TimerEvent: {}
+[2.407367] (stonefish_bluerov2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.409898] (stonefish_bluerov2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.506053] (-) TimerEvent: {}
+[2.526649] (stonefish_bluerov2) StdoutLine: {'line': b'-- Found rclpy: 3.3.19 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[2.606195] (-) TimerEvent: {}
+[2.706575] (-) TimerEvent: {}
+[2.806899] (-) TimerEvent: {}
+[2.876482] (stonefish_bluerov2) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.886885] (stonefish_bluerov2) StdoutLine: {'line': b'-- Generating done\n'}
+[2.892473] (stonefish_bluerov2) StdoutLine: {'line': b'-- Build files have been written to: /home/apenchu/hobi/ros2_ws/src/build/stonefish_bluerov2\n'}
+[2.906983] (-) TimerEvent: {}
+[2.915160] (stonefish_bluerov2) CommandEnded: {'returncode': 0}
+[2.916452] (stonefish_bluerov2) JobProgress: {'identifier': 'stonefish_bluerov2', 'progress': 'build'}
+[2.918024] (stonefish_bluerov2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/apenchu/hobi/ros2_ws/src/build/stonefish_bluerov2', '--', '-j8', '-l8'], 'cwd': '/home/apenchu/hobi/ros2_ws/src/build/stonefish_bluerov2', 'env': OrderedDict([('LESS_TERMCAP_se', '\x1b[0m'), ('HISTFILESIZE', '10000'), ('HISTTIMEFORMAT', '%F %T'), ('WARP_HONOR_PS1', '1'), ('USER', 'apenchu'), ('LESS_TERMCAP_ue', '\x1b[0m'), ('LC_TIME', 'id_ID.UTF-8'), ('NODE_FUNCTION_ALLOW_EXTERNAL', 'child_process'), ('STARSHIP_SHELL', 'bash'), ('XDG_SESSION_TYPE', 'wayland'), ('XDG_CACHE_HOME', '/home/apenchu/.cache'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/apenchu/hobi/ros2_ws/install/stonefish_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/apenchu'), ('OLDPWD', '/home/apenchu/hobi/ros2_ws'), ('TERM_PROGRAM_VERSION', 'v0.2025.12.17.17.17.stable_02'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/apenchu/.config/nvm/versions/node/v24.12.0/bin'), ('NVM_INC', '/home/apenchu/.config/nvm/versions/node/v24.12.0/include/node'), ('WARP_USE_SSH_WRAPPER', '1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/apenchu/.config/autostart/ulauncher.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LESS_TERMCAP_so', '\x1b[01;44;33m'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '962'), ('SYSTEMD_EXEC_PID', '1349'), ('IM_CONFIG_CHECK_ENV', '1'), ('LINUXTOOLBOXDIR', '/home/apenchu/linuxtoolbox'), ('VISUAL', 'nvim'), ('XDG_STATE_HOME', '/home/apenchu/.local/state'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1772'), ('NVM_DIR', '/home/apenchu/.config/nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/apenchu/hobi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'apenchu'), ('LESS_TERMCAP_us', '\x1b[01;32m'), ('DESKTOP_AUTOSTART_ID', '10855bab014fcd4b3176898399446678100000013490017'), ('JOURNAL_STREAM', '8:11634'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'apenchu'), ('SSH_SOCKET_DIR', '~/.ssh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WARP_IS_LOCAL_SHELL_SESSION', '1'), ('HISTCONTROL', 'erasedups:ignoredups:ignorespace'), ('PATH', '/home/apenchu/.local/bin:/home/apenchu/.local/bin:/home/apenchu/.local/bin:/home/apenchu/.local/bin:/opt/ros/humble/bin:/home/apenchu/.config/nvm/versions/node/v24.12.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/apenchu/.local/bin:/home/apenchu/.cargo/bin:/var/lib/flatpak/exports/bin:/.local/share/flatpak/exports/bin:/home/apenchu/hobi/ardupilot/Tools/autotest:/home/apenchu/.local/bin:/home/apenchu/.local/bin:/home/apenchu/.cargo/bin:/var/lib/flatpak/exports/bin:/.local/share/flatpak/exports/bin:/home/apenchu/hobi/ardupilot/Tools/autotest:/home/apenchu/.local/bin'), ('SESSION_MANAGER', 'local/apenchu-ThinkPad-T480:@/tmp/.ICE-unix/1349,unix/apenchu-ThinkPad-T480:/tmp/.ICE-unix/1349'), ('INVOCATION_ID', 'fde0bee2a6244cbcacc30ee444bba753'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('HISTSIZE', '500'), ('WARP_PATH_APPEND', ''), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XDG_DATA_HOME', '/home/apenchu/.local/share'), ('XDG_CONFIG_HOME', '/home/apenchu/.config'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Y65LJ3'), ('LS_COLORS', 'no=00:fi=00:di=00;34:ln=01;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.gz=01;31:*.bz2=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.avi=01;35:*.fli=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.ogg=01;35:*.mp3=01;35:*.wav=01;35:*.xml=00;31:'), ('TERM_PROGRAM', 'WarpTerminal'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/apenchu/hobi/ros2_ws/install/stonefish_ros2:/home/apenchu/hobi/ros2_ws/install/stonefish_bluerov2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESS_TERMCAP_mb', '\x1b[01;31m'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('LESS_TERMCAP_md', '\x1b[01;31m'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/apenchu/hobi/ros2_ws/src/build/stonefish_bluerov2'), ('CLICOLOR', '1'), ('LESS_TERMCAP_me', '\x1b[0m'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/apenchu/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('STARSHIP_SESSION_KEY', '2491017537966114'), ('PYTHONPATH', '/home/apenchu/hobi/ros2_ws/install/stonefish_ros2/local/lib/python3.10/dist-packages:/home/apenchu/hobi/ros2_ws/install/stonefish_bluerov2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('EDITOR', 'nvim'), ('CMAKE_PREFIX_PATH', '/home/apenchu/hobi/ros2_ws/install/stonefish_ros2:/home/apenchu/hobi/ros2_ws/install/stonefish_bluerov2:/opt/ros/humble')]), 'shell': False}
+[3.007096] (-) TimerEvent: {}
+[3.040652] (stonefish_bluerov2) StdoutLine: {'line': b'Built target ament_cmake_python_symlink_stonefish_bluerov2\n'}
+[3.107314] (-) TimerEvent: {}
+[3.207970] (-) TimerEvent: {}
+[3.308375] (-) TimerEvent: {}
+[3.408773] (-) TimerEvent: {}
+[3.509140] (-) TimerEvent: {}
+[3.609849] (-) TimerEvent: {}
+[3.619540] (stonefish_bluerov2) StdoutLine: {'line': b'running egg_info\n'}
+[3.621163] (stonefish_bluerov2) StdoutLine: {'line': b'creating stonefish_bluerov2.egg-info\n'}
+[3.621878] (stonefish_bluerov2) StdoutLine: {'line': b'writing stonefish_bluerov2.egg-info/PKG-INFO\n'}
+[3.622236] (stonefish_bluerov2) StdoutLine: {'line': b'writing dependency_links to stonefish_bluerov2.egg-info/dependency_links.txt\n'}
+[3.622559] (stonefish_bluerov2) StdoutLine: {'line': b'writing top-level names to stonefish_bluerov2.egg-info/top_level.txt\n'}
+[3.623430] (stonefish_bluerov2) StdoutLine: {'line': b"writing manifest file 'stonefish_bluerov2.egg-info/SOURCES.txt'\n"}
+[3.627793] (stonefish_bluerov2) StdoutLine: {'line': b"reading manifest file 'stonefish_bluerov2.egg-info/SOURCES.txt'\n"}
+[3.629050] (stonefish_bluerov2) StdoutLine: {'line': b"writing manifest file 'stonefish_bluerov2.egg-info/SOURCES.txt'\n"}
+[3.692379] (stonefish_bluerov2) StdoutLine: {'line': b'Built target ament_cmake_python_build_stonefish_bluerov2_egg\n'}
+[3.710152] (-) TimerEvent: {}
+[3.718403] (stonefish_bluerov2) CommandEnded: {'returncode': 0}
+[3.719849] (stonefish_bluerov2) JobProgress: {'identifier': 'stonefish_bluerov2', 'progress': 'install'}
+[3.737618] (stonefish_bluerov2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/apenchu/hobi/ros2_ws/src/build/stonefish_bluerov2'], 'cwd': '/home/apenchu/hobi/ros2_ws/src/build/stonefish_bluerov2', 'env': OrderedDict([('LESS_TERMCAP_se', '\x1b[0m'), ('HISTFILESIZE', '10000'), ('HISTTIMEFORMAT', '%F %T'), ('WARP_HONOR_PS1', '1'), ('USER', 'apenchu'), ('LESS_TERMCAP_ue', '\x1b[0m'), ('LC_TIME', 'id_ID.UTF-8'), ('NODE_FUNCTION_ALLOW_EXTERNAL', 'child_process'), ('STARSHIP_SHELL', 'bash'), ('XDG_SESSION_TYPE', 'wayland'), ('XDG_CACHE_HOME', '/home/apenchu/.cache'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/apenchu/hobi/ros2_ws/install/stonefish_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/apenchu'), ('OLDPWD', '/home/apenchu/hobi/ros2_ws'), ('TERM_PROGRAM_VERSION', 'v0.2025.12.17.17.17.stable_02'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/apenchu/.config/nvm/versions/node/v24.12.0/bin'), ('NVM_INC', '/home/apenchu/.config/nvm/versions/node/v24.12.0/include/node'), ('WARP_USE_SSH_WRAPPER', '1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/apenchu/.config/autostart/ulauncher.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LESS_TERMCAP_so', '\x1b[01;44;33m'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '962'), ('SYSTEMD_EXEC_PID', '1349'), ('IM_CONFIG_CHECK_ENV', '1'), ('LINUXTOOLBOXDIR', '/home/apenchu/linuxtoolbox'), ('VISUAL', 'nvim'), ('XDG_STATE_HOME', '/home/apenchu/.local/state'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1772'), ('NVM_DIR', '/home/apenchu/.config/nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/apenchu/hobi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'apenchu'), ('LESS_TERMCAP_us', '\x1b[01;32m'), ('DESKTOP_AUTOSTART_ID', '10855bab014fcd4b3176898399446678100000013490017'), ('JOURNAL_STREAM', '8:11634'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'apenchu'), ('SSH_SOCKET_DIR', '~/.ssh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WARP_IS_LOCAL_SHELL_SESSION', '1'), ('HISTCONTROL', 'erasedups:ignoredups:ignorespace'), ('PATH', '/home/apenchu/.local/bin:/home/apenchu/.local/bin:/home/apenchu/.local/bin:/home/apenchu/.local/bin:/opt/ros/humble/bin:/home/apenchu/.config/nvm/versions/node/v24.12.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/apenchu/.local/bin:/home/apenchu/.cargo/bin:/var/lib/flatpak/exports/bin:/.local/share/flatpak/exports/bin:/home/apenchu/hobi/ardupilot/Tools/autotest:/home/apenchu/.local/bin:/home/apenchu/.local/bin:/home/apenchu/.cargo/bin:/var/lib/flatpak/exports/bin:/.local/share/flatpak/exports/bin:/home/apenchu/hobi/ardupilot/Tools/autotest:/home/apenchu/.local/bin'), ('SESSION_MANAGER', 'local/apenchu-ThinkPad-T480:@/tmp/.ICE-unix/1349,unix/apenchu-ThinkPad-T480:/tmp/.ICE-unix/1349'), ('INVOCATION_ID', 'fde0bee2a6244cbcacc30ee444bba753'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('HISTSIZE', '500'), ('WARP_PATH_APPEND', ''), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XDG_DATA_HOME', '/home/apenchu/.local/share'), ('XDG_CONFIG_HOME', '/home/apenchu/.config'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Y65LJ3'), ('LS_COLORS', 'no=00:fi=00:di=00;34:ln=01;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.gz=01;31:*.bz2=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.avi=01;35:*.fli=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.ogg=01;35:*.mp3=01;35:*.wav=01;35:*.xml=00;31:'), ('TERM_PROGRAM', 'WarpTerminal'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/apenchu/hobi/ros2_ws/install/stonefish_ros2:/home/apenchu/hobi/ros2_ws/install/stonefish_bluerov2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESS_TERMCAP_mb', '\x1b[01;31m'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('LESS_TERMCAP_md', '\x1b[01;31m'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/apenchu/hobi/ros2_ws/src/build/stonefish_bluerov2'), ('CLICOLOR', '1'), ('LESS_TERMCAP_me', '\x1b[0m'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/apenchu/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('STARSHIP_SESSION_KEY', '2491017537966114'), ('PYTHONPATH', '/home/apenchu/hobi/ros2_ws/install/stonefish_ros2/local/lib/python3.10/dist-packages:/home/apenchu/hobi/ros2_ws/install/stonefish_bluerov2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('EDITOR', 'nvim'), ('CMAKE_PREFIX_PATH', '/home/apenchu/hobi/ros2_ws/install/stonefish_ros2:/home/apenchu/hobi/ros2_ws/install/stonefish_bluerov2:/opt/ros/humble')]), 'shell': False}
+[3.754961] (stonefish_bluerov2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.755777] (stonefish_bluerov2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.756260] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2/environment/pythonpath.sh\n'}
+[3.772728] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2/environment/pythonpath.dsv\n'}
+[3.790186] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/local/lib/python3.10/dist-packages/stonefish_bluerov2-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.810361] (-) TimerEvent: {}
+[3.813601] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/local/lib/python3.10/dist-packages/stonefish_bluerov2-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.830054] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/local/lib/python3.10/dist-packages/stonefish_bluerov2-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.850412] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/local/lib/python3.10/dist-packages/stonefish_bluerov2-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.868620] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/local/lib/python3.10/dist-packages/stonefish_bluerov2/__init__.py\n'}
+[3.884025] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/lib/stonefish_bluerov2/ardusim_patch.py\n'}
+[3.901459] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/lib/stonefish_bluerov2/view_camera.py\n'}
+[3.910420] (-) TimerEvent: {}
+[3.921959] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//launch/blueboat_sim.py\n'}
+[3.939684] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//launch/bluerov2_sim.py\n'}
+[3.957412] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//launch/bluesim.py\n'}
+[3.977949] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//scenarios/blueboat.scn\n'}
+[3.995749] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//scenarios/blueboat_sea.scn\n'}
+[4.010600] (-) TimerEvent: {}
+[4.018314] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//scenarios/bluerov2.scn\n'}
+[4.036332] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//scenarios/bluerov2_farm.scn\n'}
+[4.053397] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//scenarios/bluerov2_tank.scn\n'}
+[4.072019] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//scenarios/bluerov2_test.scn\n'}
+[4.088591] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//scenarios/bluerov2_turbine.scn\n'}
+[4.106124] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//scenarios/bluesim.scn\n'}
+[4.111044] (-) TimerEvent: {}
+[4.123976] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//scenarios/sonobot.scn\n'}
+[4.144655] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//scenarios/turbine1.scn\n'}
+[4.161173] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//scenarios/turbine2.scn\n'}
+[4.183893] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/SoilBeach0078_1_350.jpg\n'}
+[4.202506] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/anodes/anode.obj\n'}
+[4.211260] (-) TimerEvent: {}
+[4.219692] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/anodes/anode_d.png\n'}
+[4.239952] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/bluerov2.urdf\n'}
+[4.256663] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/bluerov2/bluerov2.obj\n'}
+[4.275672] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/bluerov2/bluerov2_phy.mtl\n'}
+[4.292845] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/bluerov2/bluerov2_phy.obj\n'}
+[4.311582] (-) TimerEvent: {}
+[4.316087] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/bluerov2/bluerov2_ring.obj\n'}
+[4.332533] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/bluerov2/bluerov2_wings.obj\n'}
+[4.351132] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/bluerov2/br2.obj\n'}
+[4.367687] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/bluerov2/br2.png\n'}
+[4.386502] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/bluerov2/ccw.obj\n'}
+[4.406096] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/bluerov2/cw.obj\n'}
+[4.411794] (-) TimerEvent: {}
+[4.422089] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/flat.mtl\n'}
+[4.440826] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/flat.obj\n'}
+[4.457295] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/girona500/antenna.obj\n'}
+[4.477495] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/girona500/antenna_phy.obj\n'}
+[4.496180] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/girona500/duct.obj\n'}
+[4.512506] (-) TimerEvent: {}
+[4.516828] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/girona500/duct_phy.obj\n'}
+[4.533878] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/girona500/duct_tex.png\n'}
+[4.553341] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/girona500/hull.obj\n'}
+[4.570039] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/girona500/hull_phy.obj\n'}
+[4.589806] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/girona500/hull_phy2.obj\n'}
+[4.608168] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/girona500/lower_hull.obj\n'}
+[4.612622] (-) TimerEvent: {}
+[4.625209] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/girona500/lower_hull_tex.png\n'}
+[4.641640] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/girona500/propeller.obj\n'}
+[4.659054] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/girona500/propeller_ccw.mtl\n'}
+[4.676287] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/girona500/propeller_ccw.obj\n'}
+[4.697893] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/girona500/propeller_tex.png\n'}
+[4.713143] (-) TimerEvent: {}
+[4.718343] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/girona500/tbar_back.obj\n'}
+[4.734455] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/girona500/tbar_back_tex.png\n'}
+[4.752928] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/girona500/tbar_front.obj\n'}
+[4.770906] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/girona500/tbar_front_tex.png\n'}
+[4.789146] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/girona500/tbar_phy.obj\n'}
+[4.808317] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/girona500/upper_hull.obj\n'}
+[4.813183] (-) TimerEvent: {}
+[4.825311] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/girona500/upper_hull_tex.png\n'}
+[4.845893] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/models/C_Metal.png\n'}
+[4.859810] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/models/Turbine.dae\n'}
+[4.877633] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/models/Turbine.mtl\n'}
+[4.894823] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/models/Turbine.obj\n'}
+[4.912119] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/models/Turbine.stl\n'}
+[4.913199] (-) TimerEvent: {}
+[4.931440] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/models/WindTurbine.obj\n'}
+[4.952078] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/models/gas_canister.obj\n'}
+[4.969517] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/models/gas_canister.png\n'}
+[4.991740] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/models/gas_tank.obj\n'}
+[5.008366] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/models/gas_tank.png\n'}
+[5.013603] (-) TimerEvent: {}
+[5.027416] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/models/oil_drum.mtl\n'}
+[5.048543] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/models/oil_drum.obj\n'}
+[5.064312] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/models/oil_drum.png\n'}
+[5.081607] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/models/rust_pipe.mtl\n'}
+[5.098267] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/models/rust_pipe.obj\n'}
+[5.113614] (-) TimerEvent: {}
+[5.117174] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/models/rust_pipe.png\n'}
+[5.135626] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/models/windturbintexture.png\n'}
+[5.154091] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/front_metal.mtl\n'}
+[5.175936] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/front_metal.obj\n'}
+[5.195713] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/front_metal_or.mtl\n'}
+[5.213792] (-) TimerEvent: {}
+[5.219422] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/front_metal_or.obj\n'}
+[5.237324] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/left.mtl\n'}
+[5.255216] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/left.obj\n'}
+[5.273992] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/left_rear_or.mtl\n'}
+[5.291383] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/left_rear_or.obj\n'}
+[5.309893] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/left_side.mtl\n'}
+[5.314266] (-) TimerEvent: {}
+[5.331032] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/left_side.obj\n'}
+[5.348139] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/left_side2.mtl\n'}
+[5.366327] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/left_side2.obj\n'}
+[5.382774] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/left_side_or.mtl\n'}
+[5.401403] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/left_side_or.obj\n'}
+[5.414420] (-) TimerEvent: {}
+[5.420257] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/leftside_F.mtl\n'}
+[5.439732] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/leftside_F.obj\n'}
+[5.456670] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/leftside_F1.mtl\n'}
+[5.479601] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/leftside_F1.obj\n'}
+[5.496286] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/leftside_back.mtl\n'}
+[5.514174] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/leftside_back.obj\n'}
+[5.514462] (-) TimerEvent: {}
+[5.531312] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/metal.mtl\n'}
+[5.549701] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/metal.obj\n'}
+[5.567544] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/metal_fron.mtl\n'}
+[5.583380] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/metal_fron.obj\n'}
+[5.601047] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/metal_front.mtl\n'}
+[5.614847] (-) TimerEvent: {}
+[5.619776] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/metal_front.obj\n'}
+[5.637297] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/metal_rear.mtl\n'}
+[5.653270] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/metal_rear.obj\n'}
+[5.672616] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/metal_rear_tube.mtl\n'}
+[5.690415] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/metal_rear_tube.obj\n'}
+[5.710667] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/propeller.obj\n'}
+[5.714996] (-) TimerEvent: {}
+[5.728925] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/propeller2.obj\n'}
+[5.749000] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/propeller_cc.obj\n'}
+[5.767378] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/rear_metal.mtl\n'}
+[5.786388] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/rear_metal.obj\n'}
+[5.803009] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/right_rear_or.mtl\n'}
+[5.815140] (-) TimerEvent: {}
+[5.822244] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/right_rear_or.obj\n'}
+[5.840962] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/right_side.mtl\n'}
+[5.858582] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/right_side.obj\n'}
+[5.877386] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/right_side_or.mtl\n'}
+[5.894014] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/right_side_or.obj\n'}
+[5.915243] (-) TimerEvent: {}
+[5.915586] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/rightside_F.mtl\n'}
+[5.930738] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/rightside_F.obj\n'}
+[5.950333] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/rightside_F1.mtl\n'}
+[5.967465] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/rightside_F1.obj\n'}
+[5.988301] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/rightside_back.mtl\n'}
+[6.005188] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/opti_blueboat/rightside_back.obj\n'}
+[6.015372] (-) TimerEvent: {}
+[6.024621] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/seabed.mtl\n'}
+[6.044970] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/seabed.obj\n'}
+[6.062787] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/sonobot/sonobot.obj\n'}
+[6.081231] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/sonobot/sonobot.png\n'}
+[6.097829] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/sonobot/sonobot_top.obj\n'}
+[6.115505] (-) TimerEvent: {}
+[6.117025] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/turbines/source/WindTurbine_02_Anim.fbx\n'}
+[6.136404] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/turbines/textures/Turbine_Alpha_DiffuseOpacity.png\n'}
+[6.156626] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/turbines/textures/Turbine_Alpha_Metalic.png\n'}
+[6.175142] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/turbines/textures/Turbine_Alpha_Normal.png\n'}
+[6.193389] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/turbines/textures/Turbine_Alpha_Roughness.png\n'}
+[6.211163] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/turbines/textures/Turbine_Base_AO.png\n'}
+[6.216038] (-) TimerEvent: {}
+[6.230398] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/turbines/textures/Turbine_Base_Diffuse.png\n'}
+[6.250148] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/turbines/textures/Turbine_Base_Metalic.png\n'}
+[6.265659] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/turbines/textures/Turbine_Base_Normal.png\n'}
+[6.287995] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/turbines/textures/Turbine_Base_Roughness.png\n'}
+[6.307229] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/turbines/textures/Turbine_Main_AO.png\n'}
+[6.316114] (-) TimerEvent: {}
+[6.326604] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/turbines/textures/Turbine_Main_Diffuse.png\n'}
+[6.348631] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/turbines/textures/Turbine_Main_Metalic.png\n'}
+[6.365384] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/turbines/textures/Turbine_Main_Normal.png\n'}
+[6.382185] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/turbines/textures/Turbine_Main_Roughness.png\n'}
+[6.400122] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/turbines/turbine1.blend\n'}
+[6.416273] (-) TimerEvent: {}
+[6.417990] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/turbines/turbine1_base.obj\n'}
+[6.433911] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/turbines/turbine2.blend\n'}
+[6.452003] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/turbines/turbine2.blend1\n'}
+[6.469182] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/turbines/turbine2.obj\n'}
+[6.488346] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/turbines/turbine2_base.obj\n'}
+[6.504906] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/turbines/turbine2_main.obj\n'}
+[6.516851] (-) TimerEvent: {}
+[6.525291] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/turbines/turbines.blend\n'}
+[6.542378] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/wavetank.obj\n'}
+[6.562784] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2//data/wavetank_floor.obj\n'}
+[6.585802] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/ament_index/resource_index/package_run_dependencies/stonefish_bluerov2\n'}
+[6.603176] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/ament_index/resource_index/parent_prefix_path/stonefish_bluerov2\n'}
+[6.616909] (-) TimerEvent: {}
+[6.622451] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2/environment/ament_prefix_path.sh\n'}
+[6.640415] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2/environment/ament_prefix_path.dsv\n'}
+[6.658617] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2/environment/path.sh\n'}
+[6.676220] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2/environment/path.dsv\n'}
+[6.694854] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2/local_setup.bash\n'}
+[6.712171] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2/local_setup.sh\n'}
+[6.717349] (-) TimerEvent: {}
+[6.731738] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2/local_setup.zsh\n'}
+[6.751114] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2/local_setup.dsv\n'}
+[6.767331] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2/package.dsv\n'}
+[6.786825] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/ament_index/resource_index/packages/stonefish_bluerov2\n'}
+[6.806508] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2/cmake/stonefish_bluerov2Config.cmake\n'}
+[6.817390] (-) TimerEvent: {}
+[6.823291] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2/cmake/stonefish_bluerov2Config-version.cmake\n'}
+[6.840709] (stonefish_bluerov2) StdoutLine: {'line': b'-- Symlinking: /home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/share/stonefish_bluerov2/package.xml\n'}
+[6.917521] (-) TimerEvent: {}
+[6.933757] (stonefish_bluerov2) StdoutLine: {'line': b"Listing '/home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/local/lib/python3.10/dist-packages/stonefish_bluerov2'...\n"}
+[6.934075] (stonefish_bluerov2) StdoutLine: {'line': b"Compiling '/home/apenchu/hobi/ros2_ws/src/install/stonefish_bluerov2/local/lib/python3.10/dist-packages/stonefish_bluerov2/__init__.py'...\n"}
+[6.950957] (stonefish_bluerov2) CommandEnded: {'returncode': 0}
+[7.017973] (-) TimerEvent: {}
+[7.049451] (stonefish_bluerov2) JobEnded: {'identifier': 'stonefish_bluerov2', 'rc': 0}
+[7.050702] (-) EventReactorShutdown: {}
